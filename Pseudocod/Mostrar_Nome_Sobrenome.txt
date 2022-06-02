@@ -1,0 +1,4 @@
+string nome = "Wellington";
+string sobrenome = "Klinkowski";
+
+System.out.print(nome + " " + sobrenome);

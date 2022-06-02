@@ -1,0 +1,8 @@
+string nome;
+
+if(nome == Carlos){
+	System.out.print("Olá " + nome);
+}
+else{
+	break;
+}

@@ -1,0 +1,17 @@
+Faça o robô andar o menor caminho possível.
+
+1- Ande 3 casas abaixo;
+
+2- Ande 3 casas a direita;
+
+3- Desça 1 casa abaixo;
+
+4- Suba duas casas;
+
+5- Ande uma casa a esquerda;
+
+6- Suba 2 casas;
+
+7- Ande duas casas a direita;
+
+8- Fim;

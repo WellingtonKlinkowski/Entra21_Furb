@@ -1,0 +1,5 @@
+var altura, largura;
+var resultado_area = largura * altura;
+var resultado_perimetro = (largura*2) + (altura*2);
+
+System.out.print(resultado_area + "e " + resultado_perimetro);

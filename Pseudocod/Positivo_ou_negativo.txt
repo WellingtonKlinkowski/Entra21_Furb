@@ -1,0 +1,8 @@
+int numb1 = 10;
+
+if( numb1 >= 0){
+	System.out.print("Número positivo");
+}
+else{
+	System.out.print("Número negativo")
+}

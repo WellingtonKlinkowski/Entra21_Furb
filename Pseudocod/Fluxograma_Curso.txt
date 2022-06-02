@@ -1,0 +1,28 @@
+Qual o processo para vc sair da sua casa e chegar na Furb?
+
+
+1- Fecho a casa.
+
+2- Me direciono ao ponto de õnibus.
+
+3- Espero o õnibus chegar.
+
+4- Embarco no õnibus.
+
+5- Espero chegar ao primeiro destino.
+
+6- Desço do õnibus.
+
+7- Me direciono para o próximo õnibus.
+
+8- Embarco nele.
+
+9- Espero até chegar ao próximo destino, vulgo FURB.
+
+10- Desço do õnibus.
+
+11- Me direciono a sala de aula.
+
+12- Entro e sento.
+
+13- Aguardo a aula começar.

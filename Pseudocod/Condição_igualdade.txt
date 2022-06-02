@@ -1,0 +1,8 @@
+var numb1, numb2;
+
+if(numb1 == numb2){
+	System.out.print("Os dois números são iguais")
+}
+else{
+	break;
+}
