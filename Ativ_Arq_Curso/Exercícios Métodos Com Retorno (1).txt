@@ -1,0 +1,114 @@
+Faça um programa em que o usuário entra com um número de 1 a 4
+Com o número 1 sendo verão, 2 sendo outono...
+Dependendo de o que o usuário informa, printe:
+
+É verão
+E o tempo está quente.
+
+Ou
+
+É inverno
+E está frio.
+
+Faça um método para cada estação do ano
+
+---------------------------------------------------------------------------------
+
+Faça um método para cada um dos seus colegas
+O método deve printar:
+O nome dele(a) é [nome].
+Ele(a) tem [idade] anos.
+Ele(a) é estudante do Entra 21.
+(Em prints separados)
+
+O usuário deve entar com um valor que vai selecionar um dos métodos a ser executado
+
+----------------------------------------------------------------------------------
+
+Faça um programa que some 4 números.
+
+Retorne a soma
+
+-------------------------------------------------------------------------------------
+
+Faça um programa que calcule o quadrado de um número caso esse número seja par
+E calcule o dobro desse número caso esse número seja ímpar.
+
+
+Retorne o cálculo
+
+-------------------------------------------------------------------------------------
+
+Faça um programa que diz se um número inserido está dentro de um limite imposto pelo usuário
+
+Por exemplo:
+
+Usuário inseriu o limite máximo como 100.
+Usuário inseriu o limite mínimo como 70.
+
+Depois ele inseriu o número 80.
+
+A saída deve ser: 80 está nos limites impostos.
+
+---------------------------------------------------------------------------------------------
+
+Faça um programa que receba 2 números do usuário.
+Faça um método que descubra qual dos números é maior.
+Se os dois números forem iguais, informe: número iguais.
+
+Depois de descobrir qual dois números é maior:
+Printe os dois números informados.
+Printe o maior número.
+
+--------------------------------------------------------------------------------
+
+Faça um programa que calcule o perímetro e a área de um retângulo.
+
+Retornar os valores calculados
+
+--------------------------------------------------------------------------------------
+
+Faça um programa que receba 3 notas do usuário e informe a média dessas notas.
+
+Retorne a média
+
+-------------------------------------------------------------------------------------
+
+Faça um programa que descubra:
+a) O maior elemento de um vetor.
+b) O menor elemento.
+c) A média dos valores
+
+-------------------------------------------------------------------------------------------------------------------------------------
+
+Faça um programa que receba um número, esse será o número "base"
+Depois faça o usuário entrar com mais dois números
+Printe qual dos dois últimos números está mais perto do primeiro número "base"
+
+--------------------------------------------------------------------------------------------------------------------------------
+
+Faça um código que receba duas entradas do usuário
+
+Printe cada entrada ao cubo se:
+Algum dos dois números for 5
+A soma deles é 5
+A diferença deles é 5
+
+Se nenhuma dessas condições forem satisfeitas, printe cada entrada ao quadrado
+
+-------------------------------------------------------------------------------------------------------------------------------
+
+Faça um código que receba uma entrada e descbra qual é o divisor máximo desse número
+
+(Faça com que o máximo divisor seja entre 1 e 9)
+
+
+----------------------------------------------------------------------------------------------------------------------------------
+
+
+Faça um código que recebe uma palavra do usuário, se essa palavra tem tamanho par, printe o primeiro caracter dessa palavra
+Caso ela tenha tamanho ímpar, printe o segundo caracter dessa palavra
+
+----------------------------------------------------------------------------------------------------------------------
+
+Faça um código que some duas arrays e printe tanto as duas arrays originais como a somada

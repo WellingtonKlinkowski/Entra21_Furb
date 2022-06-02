@@ -1,0 +1,64 @@
+Para todos os exercícios dessa lista:
+Fazer método construtor, getters e setters e atributos privados.
+
+------------------------------------------------------------------------------------------
+
+Faça uma classe chamada Retangulo, com os atributos altura e largura.
+Faça um método para descobrir a área e outro para descobrir o perímetro.
+
+Lembrando que um retângulo não pode ter uma largura ou altura negativos!!
+
+------------------------------------------------------------------------------------------------------------
+
+Faça uma classe chamada Conta, com os atributos nome e saldo.
+
+Faça um método para sacar dinheiro (reduzir o saldo)
+E outro método para depositar dinheiro (aumentar o saldo)
+
+----------------------------------------------------------------------------------------------
+
+Faça uma classe chamada OnibusEscolar, com os atributos estudantes e professor
+
+Faça uma exceção no método setAlunos que se o número de alunos for maior do que 40, faça com que o número de alunos seja 40
+
+Caso o número de professores for 0, o número de alunos também deve ser zerado
+
+Faça também um método chamado remover alunos, que devera remover os alunos de acordo com o valor passado como parâmetro
+
+---------------------------------------------------------------------------------------------------------------------------
+
+Crie um sistema para uma loja de materiais de construção
+Os objetos terão os atributos:
+Nome, descrição, preço, peso e estoque
+
+Crie um método para aumentar o estoque de uma peça.
+Crie um método para a venda desse produto, podendo ser vendidos até o mesmo número de peças que tem no estoque.
+
+Calcule:
+a) Qual o nome do material mais caro?
+b) Qual o nome do material mais leve?
+
+------------------------------------------------------------------------------------------------------------------------------------
+
+Uma pizzaria tem 5 pizzas em seu cardápio.
+
+Cada pizza tem um nome, 3 ingredientes, diâmetro e preço.
+
+Crie 5 objetos de pizza e os coloque em um vetor.
+
+Crie um método para mudar algum dos ingredientes da pizza, caso alguns dos ingredientes da pizza tenha sido iniciada como null, substitua esse ingrediente pelo novo;
+
+Qual pizza é a mais barata por tamanho?
+
+------------------------------------------------------------------------------------------------------------------------
+
+
+Em um sistema de uma floricultura deve se guardar o nome da flor, o preço, nome do cliente que comprou a flor, se a flor foi comprada ou não e se a flor é para presente ou não.
+
+Crie 5 objetos de flor e as coloque em um vetor
+
+Responda:
+a) Quem comprou a flor mais cara?
+b) Qual o nome da flor mais cara?
+c) Imprimir o nome das flores que foram compradas
+d) Imprimir o nome das flores que não foram compradas

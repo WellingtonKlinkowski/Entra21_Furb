@@ -1,0 +1,53 @@
+Crie uma Array List e printe os últimos elementos por primeiro
+
+---------------------------------------------------------------------------------------------------------------
+
+Coloque 5 elementos em uma Array List e ordene-os
+
+----------------------------------------------------------------------------------------------------------------
+
+Crie uma Array List
+O usuário vai colocando valores decimais até ele colocar o char n
+Calcular:
+a) Qual o menor número
+b) Qual o maior número
+c) Calcular a média
+
+---------------------------------------------------------------------------------------------------------------------
+
+Faça um algoritmo que atribua valores à Array List de acordo com o quadrado do seu índice
+Ex:
+[0] = 0
+[1] = 1
+[2] = 4
+[3] = 9
+
+--------------------------------------------------------------------------------------------------------------------------------
+
+Faça um algoritmo que coloque o número 0 no índice que o usuário escolheu
+
+------------------------------------------------------------------------------------------------------------------------------------
+
+Faça um algoritmo em que o usuário insere um número em um índice específico que ele mesmo informou
+
+--------------------------------------------------------------------------------------------------------------------------------------
+
+Descreva um algoritmo que leia 5 valores decimais e os coloque em uma Array List.
+Em seguida, modifique a Array List de modo que os valores das POSIÇÕES ímpares sejam aumentados em 5% e os das POSIÇÕES pares sejam aumentados em 2%.
+Imprima a Array List resultante
+
+-------------------------------------------------------------------------------------------------------------------------------------------------
+
+Faça um algoritmo que descubra se uma Array List possui o número que o usuário entrou
+Printe também o seu índice
+
+------------------------------------------------------------------------------------------------------------------------------------
+
+Descreva um algoritmo que leia 6 valores reais e os coloque em uma Array List.
+Imprima quais valores desses informados são maiores que a média dos valores.
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Faça um programa para ler os valores de duas Array Lists.
+Crie uma terceira Array List em que cada elemento é a soma dos valores contidos nas posições respectivas das Array Lists originais.
+Por exemplo, Array List = [1,2,3] Array List = [1,5,6] Array List = [2,7,9]. Exiba, ao final, as três Array Lists na tela.

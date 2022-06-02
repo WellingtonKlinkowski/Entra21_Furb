@@ -1,0 +1,154 @@
+Faça um programa em que o usuário entre com um número de 1 a 4
+Com o número 1 sendo verão, 2 sendo outono...
+Dependendo de o que o usuário informa, printe:
+
+É verão
+E o tempo está quente
+
+Ou
+
+É inverno
+E está frio
+
+Faça um método para cada estação do ano
+
+---------------------------------------------------------------------------------
+
+Faça um método para cada um dos seus seus colegas
+O método deve printar:
+O nome dele(a) é [nome]
+Ele(a) tem [idade] anos
+Ele(a) é estudante do Entra 21
+(Em prints separados)
+
+O usuário deve entar com um valor que vai selecionar um dos métodos a ser executado
+
+----------------------------------------------------------------------------------
+
+
+Faça um programa que some 4 números.
+Passando esses 4 números como parâmetros para um método
+
+-------------------------------------------------------------------------------------
+
+
+Faça um programa que receba 2 números do usuário.
+Faça um método que descubra qual dos números é maior
+Se os dois números forem iguais, informe: número iguais
+
+--------------------------------------------------------------------------------
+
+Faça um programa que calcule o quadrado de um número caso esse número seja par
+E calcule o dobro desse número caso esse número seja ímpar
+
+(Passe o número que o usuário entrou como parâmetro da função)
+
+-------------------------------------------------------------------------------------
+
+Faça um programa que diz se um número inserido está dentro de um limite imposto pelo usuário
+
+Por exemplo:
+
+Usuário inseriu o limite máximo como 100
+Usuário inseriu o limite máximo como 70
+
+Depois ele inseriu o número 80
+
+A saída deve ser: 80 está nos limites impostos
+
+(Passe esses 3 números como parâmetro da função)
+
+---------------------------------------------------------------------------------------------
+
+Faça um programa que calcule o perímetro e a área de um retângulo
+
+(Passe a altura e a largura como parâmetros da função)
+
+--------------------------------------------------------------------------------------
+
+Faça um programa que receba 3 notas do usuário e informe a média dessas notas
+Faça um método para calcular a média
+
+-------------------------------------------------------------------------------------------
+
+Faça um programa que printe o número que o usuário entrou e os 20 números que vem depois dele
+
+----------------------------------------------------------------------------------------
+
+
+Faça um programa que inverta os valores de duas variáveis
+
+Por exemplo:
+
+int a = 5;
+int b = 2;
+
+Deverá ser:
+a == 2;
+b == 5;
+
+(Fazer esse método funcionar para qualquer valor inserido)
+
+-------------------------------------------------------------------------------------
+
+Faça um programa que descubra:
+a) O maior elemento de um vetor
+b) O menor elemento
+c) A média dos valores
+
+(Criar um método para cada questão)
+
+----------------------------------------------------------------------------------------------------------------------------
+
+George Lucas utiliza  uma  fórmula  para  criar  os  nomes dos  personagens  em  suas  histórias  (Jar  Jar  Binks, ObiWan Kenobi, etc).
+A fórmula, supostamente, é:
+
+Seu primeiro nome na série Star Wars:
+i.Pegue as três primeiras letras de seu sobrenome
+ii.Adicione a ele as duas primeiras letras de seu nome
+
+Seu sobrenome na série Star Wars:
+i.Pegue as duas primeiras letras do sobrenome de solteira de sua mãe
+ii.Adicione a ele as três primeiras letras do nome da cidade onde você nasceu
+
+
+Crie um  método chamado generateStarWarsName que  gera  um  nome  completo  Star  Wars  conforme  descrito.
+Printe o seu nome Star Wars
+
+As entradas serão os nomes completos.
+Para separar, por exemplo as três primeiras letras do seu sobrenome, use o  atributo .charAt() das Strings)
+
+
+-------------------------------------------------------------------------------------------------------------------------------------
+
+Faça um programa que receba um número, esse será o número "base"
+Depois faça o usuário entrar com mais dois números
+Printe qual dos dois últimos números está mais perto do primeiro número "base"
+
+--------------------------------------------------------------------------------------------------------------------------------
+
+Faça um código que receba duas entradas do usuário
+
+Printe essas duas entradas ao cubo se:
+Algum dos dois números for 5
+A soma deles é 5
+A diferença deles é 5
+
+Se nenhuma dessas condições forem satisfeitas, printe os números ao quadrado
+
+-------------------------------------------------------------------------------------------------------------------------------
+
+Faça um código que receba uma entrada e cheque qual é o máximo divisor comum desse número
+(Fazer com que o máximo divisor comum seja entre 1 e 9)
+
+----------------------------------------------------------------------------------------------------------------------------------
+
+
+Faça um código que recebe uma palavra do usuário, se essa palavra tem tamanho par, printe o primeiro caracter dessa palavra
+Caso ela tenha tamanho ímpar, printe o segundo caracter dessa palavra
+
+----------------------------------------------------------------------------------------------------------------------
+
+Faça um código que some duas arrays e printe tanto as duas arrays originais como a somada
+
+------------------------------------------------------------------------------------------------------------------------

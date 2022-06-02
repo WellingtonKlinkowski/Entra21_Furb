@@ -1,0 +1,22 @@
+Uma pizzaria tem 5 pizzas em seu cardápio.
+
+Cada pizza tem um nome, 3 ingredientes, diâmetro e preço.
+
+Crie 5 objetos de pizza e os coloque em um vetor.
+
+Crie um método para mudar algum dos ingredientes da pizza, caso alguns dos ingredientes da pizza tenha sido iniciada como null, substitua esse ingrediente pelo novo;
+
+Qual pizza é a mais barata por tamanho?
+
+------------------------------------------------------------------------------------------------------------------------
+
+
+Em um sistema de uma floricultura deve se guardar o nome da flor, o preço, nome do cliente que comprou a flor, se a flor foi comprada ou não e se a flor é para presente ou não.
+
+Crie 5 objetos de flor e as coloque em um vetor
+
+Responda:
+a) Quem comprou a flor mais cara?
+b) Qual o nome da flor mais cara?
+c) Imprimir o nome das flores que foram compradas
+d) Imprimir o nome das flores que não foram compradas

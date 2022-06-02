@@ -1,0 +1,137 @@
+O índice de massa corporal (IMC) é uma medida internacional usada para calcular
+se um pessoa está no peso ideal. O IMC é determinado pela divisão da massa do 
+indivíduo pelo quadrado de sua altura, onde a massa está em quilogramas e a altura 
+está em metros, de acordo com a fórmula:
+
+IMC = Massa / Altura²
+
+Faça um algoritmo para classificar o IMC e dizer o grau de obesidade do indivíduo, 
+de acordo com a seguinte tabela:
+
+< 18.5 Magreza
+18.5 – 24.9 Saudável
+25.0 – 29.9 Sobrepeso
+30.0 – 34.9 Obesidade Grau I
+35.0 – 39.9 Obesidade Grau II (severa)
+> 40.0 Obesidade Grau III (morbida)
+
+
+
+
+
+Escreva um algoritmo printe o número 0, 2, 4, 6, 8 ...  até o número 5 mil
+
+
+
+
+
+Descreva um algoritmo que vá lendo a altura de pessoas até o usuário entrar com o número 0
+Calcule a média de altura das mesmas.
+
+
+
+
+
+Descreva um algoritmo que leia vá lendo números inteiros até o usuário entrar com o número 0
+a) Qual é o menor valor?
+b) Qual é o maior valor?
+c) Qual é a média dos valores?
+
+
+
+
+
+Descreva um algoritmo que leia 5 números inteiros e escreva, para cada número 
+lido, se o mesmo é par ou ímpar.
+
+
+
+
+
+Crie uma array de 5 elementos e printe os últimos elementos por primeiro
+
+
+
+
+
+Crie uma array de 5 elementos e descubra:
+a) Qual o maior elemento
+b) Qual o menor elemento
+c) A média dos elementos
+
+
+
+
+
+Faça um algoritmo que descubra se uma array de 5 elementos possui o número que o usuário entrou
+Printe também o seu índice
+
+
+
+
+
+Faça um algoritmo que atribua valores ao vetor de acordo com o quadrado do seu índice
+Ex:
+[0] = 0
+[1] = 1
+[2] = 4
+[3] = 9
+
+
+
+
+
+Faça um algoritmo em que o usuário insere um número em um índice específico que ele mesmo informo
+
+
+
+
+
+Crie um vetor de 100 posições
+O usuário vai colocando valores decimais até ele colocar o char n
+Calcular:
+a) Qual o menor número
+b) Qual o maior número
+c) Calcular a média
+
+
+
+
+
+Descreva um algoritmo que leia 12 valores decimais e os coloque em um vetor de 12 posições.
+Em seguida, modifique o vetor de modo que os valores das POSIÇÕES ímpares sejam aumentados em 5% e os das posições pares sejam aumentados em 2%.
+Imprima o vetor resultante
+
+
+
+
+
+Crie uma matriz com 12 linhas e 2 colunas
+A primeira coluna corresponde aos meses do ano
+A segunda corresponde ao lucro que a loja teve
+Printe os valores nesse formato:
+No mês 1 teve 20 de lucro
+E assim por diante
+
+
+
+
+
+Crie essa matriz:
+
+20	16	0.56
+25	19	0.94
+24	25	1.02
+28	10	1.4
+19	17	0.92
+22	16	0.12
+
+
+A primeira coluna é a idade do atleta
+A segunda coluna é a quantidade de jogos que esse atleta jogou
+A terceira coluna é a média de gols por partida desse atleta
+
+Determinar:
+a) Qual é a média de idade dos atletas?
+b) Qual a idade do atleta que mais fez gols?
+c) Crie uma segunda matriz que em vez da média de gols por partida mostre quantos gols esse atleta fez essa temporada

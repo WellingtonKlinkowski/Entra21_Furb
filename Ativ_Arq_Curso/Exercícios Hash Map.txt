@@ -1,0 +1,11 @@
+Crie um Hash Map que receba uma entrada do usuário.
+Se o número de entrada do usuário for par, coloque "Par" no valor e o número de entrada como chave.
+Se for impar, coloque "Impar" como valor e o número como chave.
+
+----------------------------------------------------------------------------------------------------------------
+
+Crie uma classe chamada Funcionario que tenha os atributos nome, id e salário
+
+Crie 5 objetos de Funcionario e coloque no Hash Map a id como chave e o nome como valor
+
+Depois de colocado os 5 funcionários no Hash Map, mude o nome de um deles no mapa, sem mudar o nome do objeto em si (use o método replace)
