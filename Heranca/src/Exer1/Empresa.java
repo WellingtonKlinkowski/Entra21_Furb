@@ -7,7 +7,6 @@ public class Empresa {
 
 	public static void main(String[] args) {
 			Scanner input = new Scanner(System.in);
-			
 
 				Trabalhador colab = new Trabalhador();
 				System.out.println("Qual é seu nome?");
