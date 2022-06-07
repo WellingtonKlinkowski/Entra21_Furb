@@ -1,0 +1,55 @@
+Em uma classe denominada Pessoa, deseja-se manter o nome, sexo, data de nascimento e estado civil de uma pessoa.
+O sexo deve ser definido como um caracter (‘F’ ou ‘M’).
+
+Crie 3 objetos de Pessoa.
+
+-------------------------------------------------------------------------------------------------------------------------------------------------
+
+Faça um programa que tenha uma classe com os atributos nome e data de nascimento, crie esses objetos dos seus colegas e os coloque em uma ArrayList
+Printe o dia, dia da semana, mês e ano de cada objeto
+
+Descubra o nome de quem é o mais velho e o mais novo, printe a idade deles, o dia da semana em que nasceram e a estação do ano (não existe método para estação)
+Descubra quantas pessoas nasceram em anos bissextos
+
+------------------------------------------------------------------------------------------------------------------------
+
+Para efetuar o recolhimento do Imposto de Renda a Receita Federal tem o nome, cpf, uf, renda anual, data de nascimento e endereço (Nº da casa e nome da rua).
+EX:
+Nome: João da Silva
+CPF: 123.456.789-00
+UF: PR
+RendaAnual: R$40.000
+Nascimento: 27/10/1995
+Endereço: Nº512, rua Venezuela
+
+Para o cálculo do imposto a pagar de cada contribuinte, considere o seguinte:
+
+Se a pessoa nasceu antes de 1990:
+
+Nível de Renda Anual     Alíquota
+0 a 4.000                  0%
+4.001 a 9.000              5,8%
+9.001 a 25.000             15%
+25.001 a 35.000            27,5%
+acima de 35.000            30%
+
+
+Se a pessoa nasceu depois de 1990:
+
+Nível de Renda Anual     Alíquota
+0 a 8.000                  0%
+8.001 a 12.000             5,8%
+12.001 a 25.000            15%
+25.001 a 39.000            27,5%
+acima de 39.000            30%
+
+
+Sendo assim, deve-se calcular o imposto a pagar do seguinte modo:
+Imposto a pagar = Renda Anual * Alíquota
+
+Crie 5 objetos da classe Contribuinte e coloque-os em uma ArrayList
+
+Calcule:
+a) Quem mais paga imposto.
+b) Quem menos paga imposto.
+c) Qual o total de imposto pago entre os contribuintes?
