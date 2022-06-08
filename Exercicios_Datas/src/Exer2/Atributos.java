@@ -8,11 +8,11 @@ import java.util.ArrayList;
 public class Atributos {
 
 	/*
-	 * Faça um programa que tenha uma classe com os atributos nome e data de
+	 * FaÃ§a um programa que tenha uma classe com os atributos nome e data de
 	 * nascimento, crie esses objetos dos seus colegas e os coloque em uma ArrayList
-	 * Printe o dia, dia da semana, mês e ano de cada objeto Descubra o nome de quem
-	 * é o mais velho e o mais novo, printe a idade deles, o dia da semana em que
-	 * nasceram e a estação do ano (não existe método para estação) Descubra quantas
+	 * Printe o dia, dia da semana, mÃªs e ano de cada objeto Descubra o nome de quem
+	 * Ã© o mais velho e o mais novo, printe a idade deles, o dia da semana em que
+	 * nasceram e a estaÃ§Ã£o do ano (nÃ£o existe mÃ©todo para estaÃ§Ã£o) Descubra quantas
 	 * pessoas nasceram em anos bissextos
 	 */
 
@@ -45,7 +45,7 @@ public class Atributos {
 	public void estAno(LocalDate dataNasc) {
 		int mes = dataNasc.getMonthValue();
 		if (mes >= 1 && mes <= 2 || mes == 12) {
-			System.out.println("Nasceu no verão");
+			System.out.println("Nasceu no verï¿½o");
 		} else if (mes >= 3 && mes <= 5) {
 			System.out.println("Nasceu no outono");
 		} else if (mes >= 6 && mes <= 8) {
@@ -64,9 +64,9 @@ public class Atributos {
 	public void anoBissexto(LocalDate dataNasc) {
 		boolean bissexto = dataNasc.isLeapYear();
 		if (bissexto == true) {
-			System.out.println("Você nasceu em um ano bissexto");
+			System.out.println("Vocï¿½ nasceu em um ano bissexto");
 		} else if (bissexto == false) {
-			System.out.println("Você não nasceu em um ano bissexto");
+			System.out.println("Vocï¿½ nï¿½o nasceu em um ano bissexto");
 		}
 	}
 
@@ -74,7 +74,28 @@ public class Atributos {
 		LocalDate idade = LocalDate.now();
 		int anos = dataNasc.compareTo(idade);
 		anos = anos - anos - anos;
-		System.out.println("Sua idade é " + anos);
+		System.out.println("Sua idade ï¿½ " + anos);
+		
+	}
+	
+	public void compIdades(LocalDate dataNasc) {
+		int maiorIdade = Integer.MIN_VALUE;
+		int menorIdade = Integer.MAX_VALUE;
+			LocalDate compIdades = LocalDate.now();
+			int anos = dataNasc.compareTo(compIdades);
+			anos = anos - anos - anos;
+			if( anos < menorIdade) {
+				menorIdade = anos;
+				//System.out.println("A menor idade ï¿½ " + menorIdade);
+			}
+			if (anos > maiorIdade) {
+				maiorIdade = anos;
+				//System.out.println("A maior idade ï¿½ " + maiorIdade);
+			}
+		
+		System.out.println("\n");
+		System.out.println("A maior idade ï¿½ " + maiorIdade);
+		System.out.println("A menor idade ï¿½ " + menorIdade);
 	}
 
 		

@@ -22,31 +22,31 @@ public class Main {
 		amigo3.setDataNasc(LocalDate.of(1996, 12, 25));
 
 		for (int i = 0; i < Atributos.amigos.size(); i++) {
-			System.out.println(Atributos.amigos.get(i).getNome() + " e a data é " + Atributos.amigos.get(i).getDataNasc());
+			System.out.println(Atributos.amigos.get(i).getNome() + " e a data ï¿½ " + Atributos.amigos.get(i).getDataNasc());
 			amigo.estAno(Atributos.amigos.get(i).getDataNasc());
 			amigo.diaSemana(Atributos.amigos.get(i).getDataNasc());
 			amigo.anoBissexto(Atributos.amigos.get(i).getDataNasc());
 			amigo.idade(Atributos.amigos.get(i).getDataNasc());
-
-			LocalDate idade = LocalDate.now();
-			int anos = amigo.getDataNasc().compareTo(idade);
-			anos = anos - anos - anos;
-
-			int maiorIdade = Integer.MIN_VALUE;
-			int menorIdade = Integer.MAX_VALUE;
-
-			for (int i1 = 0; i1 <= Atributos.amigos.size(); i1++) {
-				if (anos > maiorIdade) {
-					maiorIdade = anos;
-				}
-				else if( anos < menorIdade) {
-					menorIdade = anos;
-				}
-			}
-			System.out.println("A maior idade é " + maiorIdade);
-			System.out.println("A maior idade é " + menorIdade);
-			System.out.println("\n");
+			amigo.compIdades(Atributos.amigos.get(i).getDataNasc());
+			
 		}
+		/*
+		 * int maiorIdade = Integer.MIN_VALUE;
+		int menorIdade = Integer.MAX_VALUE;
+
+		for (int i1 = 0; i1 < Atributos.amigos.size(); i1++) {
+			if (anos1 > maiorIdade) {
+				maiorIdade = anos1;
+			}
+			else if( anos1 < menorIdade) {
+				menorIdade = anos1;
+			}
+		}
+		System.out.println("\n");
+		System.out.println("A maior idade ï¿½ " + maiorIdade);
+		System.out.println("A menor idade ï¿½ " + menorIdade);
+		 */
+		
 
 	}
 }
