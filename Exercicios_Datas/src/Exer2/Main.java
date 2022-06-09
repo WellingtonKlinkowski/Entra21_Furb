@@ -27,26 +27,24 @@ public class Main {
 			amigo.diaSemana(Atributos.amigos.get(i).getDataNasc());
 			amigo.anoBissexto(Atributos.amigos.get(i).getDataNasc());
 			amigo.idade(Atributos.amigos.get(i).getDataNasc());
-			amigo.compIdades(Atributos.amigos.get(i).getDataNasc());
-			
 		}
-		/*
-		 * int maiorIdade = Integer.MIN_VALUE;
-		int menorIdade = Integer.MAX_VALUE;
-
-		for (int i1 = 0; i1 < Atributos.amigos.size(); i1++) {
-			if (anos1 > maiorIdade) {
-				maiorIdade = anos1;
-			}
-			else if( anos1 < menorIdade) {
-				menorIdade = anos1;
-			}
-		}
-		System.out.println("\n");
-		System.out.println("A maior idade � " + maiorIdade);
-		System.out.println("A menor idade � " + menorIdade);
-		 */
 		
-
+		System.out.println("\n");
+		
+		int idMaior = 0;
+		int idMenor = 0;
+		
+		for(int i = 0; i < Atributos.amigos.size(); i++) {
+			int anos = (amigo.idadeComp(Atributos.amigos.get(i).getDataNasc()));
+			if(anos > idMaior) {
+				idMaior = anos;
+			}
+			else {
+				idMenor = anos;
+			}
+		}
+		System.out.println("A maior idade é " + idMaior);
+		System.out.println("A menor idade é " + idMenor);
+		
 	}
 }

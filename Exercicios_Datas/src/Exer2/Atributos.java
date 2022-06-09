@@ -75,29 +75,13 @@ public class Atributos {
 		int anos = dataNasc.compareTo(idade);
 		anos = anos - anos - anos;
 		System.out.println("Sua idade � " + anos);
-		
-	}
+	}	
 	
-	public void compIdades(LocalDate dataNasc) {
-		int maiorIdade = Integer.MIN_VALUE;
-		int menorIdade = Integer.MAX_VALUE;
-			LocalDate compIdades = LocalDate.now();
-			int anos = dataNasc.compareTo(compIdades);
-			anos = anos - anos - anos;
-			if( anos < menorIdade) {
-				menorIdade = anos;
-				//System.out.println("A menor idade � " + menorIdade);
-			}
-			if (anos > maiorIdade) {
-				maiorIdade = anos;
-				//System.out.println("A maior idade � " + maiorIdade);
-			}
+	public int idadeComp(LocalDate dataNasc) {
+		LocalDate idade = LocalDate.now();
+		int anos = dataNasc.compareTo(idade);
+		return anos = anos - anos - anos;
 		
-		System.out.println("\n");
-		System.out.println("A maior idade � " + maiorIdade);
-		System.out.println("A menor idade � " + menorIdade);
-	}
-
-		
-	}
+	}	
+}
 
