@@ -8,8 +8,8 @@ public class Main {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		double maior = 0;
-		double menor = 0;
+		double maior = Integer.MIN_VALUE;
+		double menor = Integer.MAX_VALUE;
 		double totalImp = 0;
 
 		Dados_IR contb1 = new Dados_IR("Wellington", "08994233962", "SC", 28989.00, LocalDate.of(1999, 03, 30), "Nº 3082, Rua Professor Jacob Ineichen");
@@ -30,8 +30,8 @@ public class Main {
 			}
 		}
 		System.out.println("\n");
-		System.out.println("o maior imp é " + maior);
-		System.out.println("o maior imp é " + menor);
+		System.out.println("O maior imp é " + maior);
+		System.out.println("O maior imp é " + menor);
 		System.out.println("O total de imposto a pagar é " + totalImp);
 		
 		
