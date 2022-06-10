@@ -31,7 +31,7 @@ public class Main {
 		}
 		System.out.println("\n");
 		System.out.println("O maior imp é " + maior);
-		System.out.println("O maior imp é " + menor);
+		System.out.println("O menor imp é " + menor);
 		System.out.println("O total de imposto a pagar é " + totalImp);
 		
 		
