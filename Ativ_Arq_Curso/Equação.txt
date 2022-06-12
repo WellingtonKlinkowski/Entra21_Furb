@@ -1,0 +1,15 @@
+Faça um algoritmo que descubra a solução para uma equação de segundo grau completa utilizando o método de soma e produto.
+
+O usuário deve entrar os coeficientes da equação de segundo grau e você deve calcular quais as soluções utilizando um método conhecido como força bruta.
+
+Força bruta consiste em testar todas as combinações possíveis até chegar no resultado desejado
+
+Note: Nem todas as combinações de coeficientes vão funcionar, essas equações são chamadas de "equações sem raizes reais"
+
+Lista de equações que dão certo:
+
+x² + x -6 = 0
+
+x² - 3x + 2 = 0
+
+

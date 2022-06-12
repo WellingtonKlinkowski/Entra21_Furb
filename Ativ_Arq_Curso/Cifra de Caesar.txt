@@ -1,0 +1,16 @@
+Nesta desafio iremos implementar o algoritmo de cifragem denominado de “Cifra de César”.
+
+O algoritmo de César encripta uma mensagem trocando os caracteres 3 posições à sua frente.
+Então a palavra CESAR vai ser tornar FHVDU, a palavra COMPUTADOR se tornará FRPSXWDGRU
+
+
+Construa um programa que possibilite ao usuário cifrar algum texto e decifrar algum texto utilizando este algoritmo.
+Isto é, o programa deve permitir que o usuário acione estas funcionalidades:
+Cifrar um texto e decifrar um texto.
+
+A cifra de César limita-se a cifrar apenas caracteres constituídos de letras do alfabeto.
+Espaços, números e outros caracteres não compõe o texto simples. Não usar caracteres especiais como é, ã, etc.
+
+Note que letras como "x" "y" e "z" darão a "volta" pelo alfabeto, virando "a", "b" e "c"
+
+Considerar também que todo texto simples sempre será constituído de caracteres maiúsculos.
