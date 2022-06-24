@@ -1,0 +1,167 @@
+Leia uma data (dia, mês e ano) e determine se ela é válida.
+Ou seja, verifique se o mês está entre 1 e 12, e se o dia existe naquele mês.
+Note que em anos bissextos Fevereiro tem 29 dias.
+Depois de checar que essa data está certa, coloque em um LocalDate
+Caso a data não seja válida, lance uma exceção
+
+-----------------------------------------------------------------------------------------------------------
+
+Escreva um algoritmo em que o usuário entra com dois números
+E depois ele escolhe a operação que vai ser feita com esses números
+
+Caso ele escolha a operação 1
+Some as duas variáveis
+
+Caso ele escolha a operação 2
+Subtraia as duas variáveis
+
+Caso ele escolha a operação 3
+Multiplique as duas variáveis
+
+Caso ele escolha a operação 4
+Divida as duas variáveis
+
+Caso ele escolha algum outro número, lance uma exceção
+
+-----------------------------------------------------------------------------------------------------------
+
+Escreva um algoritmo em que o usuário entre com 2 valores de 1 a 100
+E depois mostre a divisão entre eles
+Caso o usuário entre com o valor 0, lance uma exceção explicando que está sendo feita uma divisão por 0
+Caso o usuário entre com algum outro número, lance uma exceção explicando que o número está fora dos limites
+
+-------------------------------------------------------------------------------------------------------------
+
+Еscreva um algoritmo que leia a altura de 5 pessoas e calcule a média de altura das mesmas.
+Lance as exceções que você achar necessárias
+
+----------------------------------------------------------------------------------------------------------------------
+
+Faça um algoritmo em que o usuário insere um número em um vetor no índice específico que ele mesmo informou.
+Lance as exceções que você achar necessárias
+
+----------------------------------------------------------------------------------------------------------------
+
+Faça um algoritmo em que o usuário insere um número em uma Array List no índice específico que ele mesmo informou.
+O valor original daquele índice deve ser substituído pelo valor novo.
+Lance as exceções que você achar necessárias
+
+-----------------------------------------------------------------------------------------------------------------------
+
+Crie uma classe de Funcionario que tenha os atributos:
+nome, id, salário, data de nascimento, endereço (UF, cidade, Nº da casa, rua e CEP)
+UF deve ter obrigatoriamente dois caracteres e CEP deve ter obrigatoriamente 8 números
+
+Crie 5 objetos de Funcionario e coloque no Hash Map a id como chave e o nome como valor
+
+Lance exceções nos métodos sets de Funcionário e Endereço
+
+--------------------------------------------------------------------------------------------------------------------------
+
+Faça um programa em que o usuário entre com um número de 1 a 4
+Com o número 1 sendo verão, 2 sendo outono...
+Dependendo de o que o usuário informa, printe:
+
+É verão
+E o tempo está quente
+
+Ou
+
+É inverno
+E está frio
+
+Faça um método para cada estação do ano
+
+Lance as exceções que você achar necessárias
+-----------------------------------------------------------------------------------------------------------------------------
+
+Faça uma classe chamada Retangulo, com os atributos altura e largura.
+Faça um método para descobrir a área e outro para descobrir o perímetro.
+
+Lance as exceções que você achar necessárias
+
+------------------------------------------------------------------------------------------------------------------------------
+
+Faça um programa que receba 3 notas do usuário e informe a média dessas notas.
+
+Lance as exceções que você achar necessárias
+
+-------------------------------------------------------------------------------------------------------------------------------
+
+Crie uma classe chamada Mercado.
+
+Essa classe terá os atributos:
+número de maçãs vendidas, preço de venda das maçãs, número de laranjas vendidas, preço de venda das laranjas.
+
+Crie 3 objetos da classe Mercado chamados:
+
+unidadeDeBlumenau
+unidadeDeJoinville
+unidadeDeFlorianopolis
+
+Calcule:
+a) Quem teve a maior receita vendendo maçãs?
+b) Quem teve a maior receita vendendo laranjas?
+c) Qual das lojas teve a maior receita nesse ano específico?
+d) Qual das lojas ficou no "meio" em termos de receita?
+e) Juntando as 3 lojas, a franquia teve uma receita maior vendendo maçãs ou laranjas?
+
+Lance as exceções que você achar necessárias
+
+--------------------------------------------------------------------------------------------------------------------------------
+
+Faça uma classe chamada Aeronave.
+Com os atributos:
+Passageiros.
+Velocidade máxima.
+Capacidade de combustível.
+Queima de combustível por minuto.
+
+Crie 3 objetos de sua preferência.
+
+
+Calcule:
+a) Qual das aeronaves pode ficar no ar por mais tempo?
+b) Qual aeronave leva o maior número de passageiros?
+c) Considerando que os aviões estão em velocidade máxima, quem vai mais longe?
+
+Lance as exceções que você achar necessárias
+
+--------------------------------------------------------------------------------------------------------------------------------
+
+Faça um programa que tenha uma classe com os atributos nome, data de nascimento e endereço (UF, cidade, Nº da casa, rua e CEP)
+UF deve ter obrigatoriamente dois caracteres e CEP deve ter obrigatoriamente 8 números.
+Crie esses objetos dos seus colegas e os coloque em uma ArrayList
+
+Descubra o nome de quem é o mais velho e o mais novo, printe a idade deles, o dia da semana em que nasceram e a estação do ano.
+Descubra quantas pessoas nasceram em anos bissextos.
+
+Lance as exceções que você achar necessárias
+
+-----------------------------------------------------------------------------------------------------------------------------
+
+Faça uma classe chamada OnibusEscolar, com os atributos estudantes e professor
+
+No método setAlunos se o número de alunos for maior do que 40, faça com que o número de alunos seja 40
+
+Caso o número de professores for 0, o número de alunos deve ser zerado.
+
+Faça também um método chamado remover alunos, que devera remover os alunos de acordo com o valor passado como parâmetro
+
+Lance as exceções que você achar necessárias
+
+-----------------------------------------------------------------------------------------------------------------------------
+
+Uma pizzaria tem 5 pizzas em seu cardápio.
+
+Cada pizza tem um nome, ingredientes, diâmetro e preço.
+
+Crie 5 objetos de pizza e os coloque em uma ArrayList.
+
+Crie um método para mudar algum dos ingredientes da pizza, caso alguns dos ingredientes da pizza tenha sido iniciada como null, substitua esse ingrediente pelo novo;
+
+Faça com que ingredientes seja uma classe que guarda os 3 ingredientes de uma pizza
+
+Qual pizza é a mais barata por tamanho?
+
+Lance as exceções que você achar necessárias

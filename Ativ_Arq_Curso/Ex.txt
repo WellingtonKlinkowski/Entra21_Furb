@@ -1,0 +1,42 @@
+Faça um algoritmo que o usuário entre com um char.
+Faça um switch case para determinar se esse char é uma consoante ou vogal
+
+--------------------------------------------------------------------------------------------------------------------
+
+Faça um algoritmo que o usuário entre dois números e depois escolhe a operação que será feita.
+
+Faça um switch case para determinar a operação.
+
+----------------------------------------------------------------------------------------------------
+
+Faça um programa que funciona como um conversor universal.
+
+Primerio o usuário escolhe se ele quer converter: temperatura, peso, comprimento ou volume.
+
+Se, por exemplo, ele escolher temperatura, faça com que ele escolha o tipo de entrada entre: celsius, fahrenheit ou kelvin.
+
+Depois ele escolhe para qual ele quer converter.
+
+As opções de peso são: quilos, libras e onças
+
+As opções de comprimento são: metros, pés e polegadas
+
+As opções de volume são: litros, galão e onças líquidas
+
+----------------------------------------------------------------------------------------------------------------------------------
+
+Continue o último exercício de Enum.
+
+Faça com que vendedor tenha uma comissão sobre a venda do carro.
+
+Se o preço do carro for até 80 mil, o vendedor ganha 2% de comissão
+
+Se for de 80.001 até 150 mil, o vendedor ganha 4%.
+
+Se for mais de 150 mil o vendedor ganha 5%.
+
+Faça também com que tenha a opção de ser feita a venda online, essa opção será um atributo de Automovel.
+
+Caso seja feita a venda online, o nome, dataNasc e endereço do vendedor devem ser null.
+
+Porém o id deve ser: ONLINE

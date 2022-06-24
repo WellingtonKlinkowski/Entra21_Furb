@@ -1,0 +1,38 @@
+Crie um Enum com os paises da America Do Norte.
+Cada país têm o atributo código de discagem (no caso do Brasil é +55).
+Printe as 3 labels junto com o seu código
+
+-------------------------------------------------------------------------------------------------------------
+
+Leia uma data (dia, mês e ano) e determine se ela é válida.
+Ou seja, verifique se o mês está entre 1 e 12, e se o dia existe naquele mês.
+Note que em anos bissextos Fevereiro tem 29 dias.
+Depois de checar que essa data está certa, coloque em um LocalDate.
+Caso a data não seja válida, lance uma exceção.
+
+Faça um Enum com os dias da semana e outro com os meses.
+Printe qual dia da semana e qual mês que essa data consiste (em português).
+Printe também seus respectivos valores (que serão atributos do Enum).
+
+Faça um método chamado "é dia de semana" que retorne um boolean.
+Faça um método chamado "é final de semana" que retorne um boolean.
+
+----------------------------------------------------------------------------------------------------------------
+
+Faça um Enum que guarde os nomes dos planetas do sistema solar e seus respectivos lugares a partir do Sol.
+Faça um método chamado "pode morar" que receba um objeto do Enum criado.
+Se o parâmetro for TERRA, então printe "pode morar".
+Senão, printe "não pode morar"
+
+------------------------------------------------------------------------------------------------------------------
+
+Faça uma classe Automovel que tenha os atributos: modelo, peso, dono, vendedor e cor
+Faça com que dono e vendedor sejam subclasses de Pessoa.
+A classe Pessoa terá os atributos: nome, dataNasc e endereço.
+A única diferença entre dono e vendedor é que vendedor tem o atributo: id, que obrigatoriamente deve começar com 'V'.
+Faça com que endereço tenha os atributos: UF, cidade, Nº da casa, rua e CEP (lançando as exceções apropriadas para cada um).
+
+Faça com que Cor seja um Enum.
+Crie algumas cores e coloque um número de identificação, ex: AZUL(1), PRETO(2), VERDE(3)...
+
+Lance as exceções que você achar necessárias

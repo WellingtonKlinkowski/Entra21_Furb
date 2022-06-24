@@ -1,0 +1,6 @@
+Faça uma Array List e depois faça um for each que printe somente os valores maiores do que a média de valores da lista.
+
+-------------------------------------------------------------------------------------------------------------------------
+
+Faça uma Array List com nomes e depois faça com que o usuário entre com um nome de sua preferêcencia.
+Faça um for each da lista que printe somente o nome igual ao que o usuário entrou.

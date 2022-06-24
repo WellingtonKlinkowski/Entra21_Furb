@@ -2,20 +2,22 @@ import java.util.ArrayList;
 
 public class arraylist_1 {
 
+	@SuppressWarnings("unchecked")
 	public static void main(String[] args) {
-		//Crie uma Array List e printe os últimos elementos por primeiro
+		//Crie uma Array List e printe os ï¿½ltimos elementos por primeiro
 		
 		
-		//Um array criado com a tecla espaço com o nome de "lista"
+		//Um array criado com a tecla espaï¿½o com o nome de "lista"
+		@SuppressWarnings("rawtypes")
 		ArrayList lista = new ArrayList();
-		//adicionado valores as posições da lista. (0, 1, 2)
+		//adicionado valores as posiï¿½ï¿½es da lista. (0, 1, 2)
 		lista.add(3);
 		lista.add(2);
 		lista.add(1);
 		
-		//Um for que recebe o tamanho da lista, com padrões (-1) para não dar erro de index
+		//Um for que recebe o tamanho da lista, com padrï¿½es (-1) para nï¿½o dar erro de index
 		for(int i = lista.size() -1; i > -1; i--) {
-			//lista.get é usado para imprimir o array e o "i" é a posição impressa
+			//lista.get ï¿½ usado para imprimir o array e o "i" ï¿½ a posiï¿½ï¿½o impressa
 			System.out.println(lista.get(i));
 		}
 		
