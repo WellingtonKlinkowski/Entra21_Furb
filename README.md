@@ -1,4 +1,5 @@
 <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-brands/css/uicons-brands.css'>
+@import url('https://cdn-uicons.flaticon.com/uicons-brands/css/uicons-brands.css')
 # Entra21_Furb
 
 Olá, aqui está um pouco do meu estudo diário no curso do Entra21 que ocorre na Furb.
