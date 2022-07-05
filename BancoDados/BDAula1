@@ -1,0 +1,71 @@
+			Banco de Dados
+			
+	Conceito geral:
+		Nosso conhecimento.
+		Nossos documentos pessoais.
+		Um arquivo móvel contendo gavetas e pastas.
+		
+	Relação com TI
+		Sistema computadorizado de armazenamento de registros.  	
+		Conjunto de dados persistentes que objetivam atender as necessidades de uma organização.
+	
+	DBA (DataBase Administrator):
+		Profissional de TI.
+		Monitora o BD.
+		Define os esquemas conceituais e internos.
+		Define restrições de segurança e integridade.
+		Define rotinas de backup.
+		
+	Analistas de Sistemas e Programadores:
+		Profissional de TI
+		Desenvolve aplicações que interagem com o SGBD
+		DOminam uma linguagem de programação e a forma como a mesma interage com o SGBD
+		
+	Analista de Dados
+		Profissional de TI
+		Tem contato com a Analista de Sistemas e com o DBA
+		Responsável por elaborar o modelo de dados
+		
+	Usuário Final
+		Interagem com a aplicação desenvolvida pelos Analistas e programadores.
+		Não necessariamente conhecem as formas de interação com o BD.
+		Em muitos casos, abstraem a interação com o BD
+		
+-------------------------------------------------------------------------------------------------
+			Modelo de dados
+	
+	Definição abstrata, autônoma e lógica dos objetos, operadores e outros elementos.	
+	Objetos - estrutura de dados
+	Operadores - comportamento de dados
+	
+-------------------------------------------------------------------------------------------------
+		
+			Por que usar um BD?	
+	
+	Economia de espaço
+	Velocidade na pesquisa
+	Velocidade na tomada de decisão
+	Eliminação de trabalho monótono
+	Informações atualizadas sempre à mão
+	
+			É realmente uma solução?
+	
+	Alto investimento
+	"Overhead" para garantir segurança, concorrência, recuperação e integridade.
+	
+			Quais as vantagens?
+	
+	Compartilhar dados
+	Redução no repetimento de dados, eliminção de inconsistência, manutenção da integridade.
+	Suporte a transações
+	Segurança
+	Reforço de padrões
+	
+			
+		
+		
+		
+		
+		
+		
+			
