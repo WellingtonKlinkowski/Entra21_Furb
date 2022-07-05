@@ -24,10 +24,13 @@ As opções de comprimento são: metros, pés e polegadas
 As opções de volume são: litros, galão e onças líquidas
 
 ----------------------------------------------------------------------------------------------------------------------------------
+Faça uma classe Automovel que tenha os atributos: modelo, peso, dono, vendedor, cor e valor
+Faça com que dono e vendedor sejam subclasses de Pessoa.
+A classe Pessoa terá os atributos: nome, dataNasc e endereço.
+A única diferença entre dono e vendedor é que vendedor tem o atributo: id, que obrigatoriamente deve começar com 'V'.
 
-Continue o último exercício de Enum.
-
-Faça com que vendedor tenha uma comissão sobre a venda do carro.
+Se a escolha da forma de comprar for por vendedor, o mesmo deve ganhar comição sobre o valor do carro.
+aça com que vendedor tenha uma comissão sobre a venda do carro.
 
 Se o preço do carro for até 80 mil, o vendedor ganha 2% de comissão
 
@@ -40,3 +43,10 @@ Faça também com que tenha a opção de ser feita a venda online, essa opção 
 Caso seja feita a venda online, o nome, dataNasc e endereço do vendedor devem ser null.
 
 Porém o id deve ser: ONLINE
+Faça com que endereço tenha os atributos: UF, cidade, Nº da casa, rua e CEP (lançando as exceções apropriadas para cada um).
+
+Faça com que Cor seja um Enum.
+Crie algumas cores e coloque um número de identificação, ex: AZUL(1), PRETO(2), VERDE(3)...
+
+Lance as exceções que você achar necessárias
+
