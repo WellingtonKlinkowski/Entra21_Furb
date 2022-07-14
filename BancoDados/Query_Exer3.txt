@@ -1,0 +1,48 @@
+/*Liste os nomes dos jogadores e seus respectivos times, ordenados alfabeticamente pelo
+nome do time como primeiro critério e nome do jogador como segundo critério. */
+
+Query:
+
+SELECT nm_time, nm_jogador
+FROM fut_jogador j
+JOIN fut_time f ON f.id_time = j.id_time
+ORDER BY nm_time, nm_jogador
+
+-----------------------------------------------------------------------------------------------------------------------------------------
+/*Liste os nomes dos jogadores que pertençam ao time ‘Canto do rio’. Obs.: na query
+deverá haver o critério de busca contendo o nome do time (WHERE nm_time = "Canto
+do rio"), não somente o ID do time. */
+
+Query:
+
+SELECT nm_jogador
+FROM fut_jogador j
+JOIN fut_time t ON t.id_time = j.id_time
+WHERE nm_time = "Canto do rio"
+
+-----------------------------------------------------------------------------------------------------------------------------------------
+/*Liste o nome do jogador, seu respectivo time, o ID da partida e o minuto em que ele
+marcou o gol, sendo que deverão ser listados apenas os gols marcados no primeiro
+tempo das partidas, ou seja, antes de 45 minutos. */
+
+Query:
+
+SELECT nm_time, nm_jogador, id_partida, id_gol, nr_minuto_partida
+FROM fut_jogador j
+JOIN fut_time f ON f.id_time = j.id_time
+JOIN fut_gol g ON g.id_jogador = j.id_jogador
+WHERE nr_minuto_partida <= 45
+
+------------------------------------------------------------------------------------------------------------------------------------------
+/*Liste os artilheiros do campeonato, ou seja, totalize os gols dos jogadores, em ordem
+decrescente. */
+
+Query:
+
+SELECT nm_time, nm_jogador, COUNT(*)
+FROM fut_jogador j
+JOIN fut_time f ON f.id_time = j.id_time
+JOIN fut_gol g ON g.id_jogador = j.id_jogador
+GROUP BY nm_jogador
+ORDER BY COUNT(*) DESC
+

@@ -1,0 +1,19 @@
+SELECT nm_funcionario, nm_departamento
+FROM funcionario f
+JOIN departamento d ON d.cd_departamento = f.cd_departamento
+ORDER BY nm_departamento, nm_funcionario [DESC];
+
+SELECT nm_departamento, COUNT(*)
+FROM departamento d
+JOIN funcionario f on f.cd_departamento = d.cd_departamento
+GROUP BY nm_departamento
+
+SELECT nm_departamento, [COUNT(*) / SUM(nm_campo/expressão) / AVG(nm_campo/expressão)]
+FROM departamento d
+JOIN funcionario f on f.cd_departamento = d.cd_departamento
+GROUP BY nm_departamento
+
+exemplo de query com DATE_FORMAT:
+
+select date_format(dt_abertura_chamado,"%m/%Y"), chamado.*
+from chamado

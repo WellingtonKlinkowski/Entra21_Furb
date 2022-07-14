@@ -1,0 +1,43 @@
+/*Listagem de quantidades de chamados por mês/ano, ordenados cronologicamente do 
+mês/ano mais antigo ao mês/ano mais recente. Utilize a função DATE_FORMAT para 
+extrair mês/ano da coluna dt_abertura_chamado*/
+
+Query: 
+
+SELECT date_format(dt_abertura_chamado,"%M/%y"), COUNT(*)
+FROM chamado c
+GROUP BY date_format(dt_abertura_chamado,"%M") DESC
+--------------------------------------------------------------------------------------------------------------------------------
+/*Quantidade de chamados totalizados por nm_produto.*/
+
+Query: 
+
+SELECT nm_produto, COUNT(*)
+FROM produto p
+JOIN chamado c ON c.cd_produto = p.cd_produto
+GROUP BY p.nm_produto
+
+---------------------------------------------------------------------------------------------------------------------------------
+/*Quantidade de chamados abertos (coluna dt_fechamento_chamado IS NULL) 
+totalizados por nm_funcionario*/
+
+Query:
+
+SELECT nm_funcionario, COUNT(*)
+FROM chamado c
+JOIN funcionario f ON f.cd_funcionario = c.cd_funcionario
+WHERE dt_fechamento_chamado IS NULL
+GROUP BY nm_funcionario
+
+---------------------------------------------------------------------------------------------------------------------------------
+/*Quantidade de chamados fechados (o contrário do item anterior) totalizados por 
+nm_funcionario.*/
+
+
+Query:
+
+SELECT nm_funcionario, COUNT(*)
+FROM chamado c
+JOIN funcionario f ON f.cd_funcionario = c.cd_funcionario
+WHERE dt_fechamento_chamado IS NOT NULL
+GROUP BY nm_funcionario

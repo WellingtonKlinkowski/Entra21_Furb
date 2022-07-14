@@ -1,0 +1,27 @@
+produtos que vende
+	cada produto tem um cd único
+	nome do produto
+	uma categoria (criada pela própria empresa)
+	qntd em estoque
+	valor do produto
+---------------------------------------------------------------------------------------------------------------------
+clientes
+	cd único do cliente
+	nm do cliente
+	rua
+	número da casa
+	bairro
+	cidade
+	cep
+	uf
+	email
+	telefone
+	limite de crédito
+---------------------------------------------------------------------------------------------------------------------
+pedidos de compra
+	cd único do pedido
+	data do pedido
+	itens do pedido
+	qntd de unds por item
+---------------------------------------------------------------------------------------------------------------------
+

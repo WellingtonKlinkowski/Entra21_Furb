@@ -1,0 +1,59 @@
+/*Retorne o nome do funcionário e seu respectivo departamento nas seguintes ordenações:
+ Nome do funcionário em ordem alfabética.
+ Nome do departamento em ordem alfabética.
+ Nome do departamento em ordem alfabética como primeira ordenação e nome do
+funcionário em ordem alfabética como segunda ordenação. 
+*/
+
+Query:
+
+SELECT nm_funcionario, nm_departamento
+FROM funcionario f
+JOIN departamento d ON d.cd_departamento = f.cd_departamento
+ORDER BY nm_departamento/*nm_funcionario*/
+
+-----------------------------------------------------------------------------------------------------------------------
+/*Retorne o nome do funcionário, o salário base do seu cargo e seu salário baseado no valor do
+campo pc_salario (basta multiplicar o valor do salário pelo valor deste campo). */
+
+Query:
+
+SELECT nm_funcionario, pc_salario,  vl_sal_bruto , pc_salario * vl_sal_bruto
+FROM funcionario f
+JOIN cargo c ON f.cd_cargo = c.cd_cargo
+ORDER BY nm_funcionario
+
+----------------------------------------------------------------------------------------------------------------------------
+/*Retorne o total de salários por departamento (os salários devem ser calculados pelo valor do
+campo pc_salario).*/
+
+Query: 
+
+SELECT nm_departamento, AVG(vl_sal_bruto * pc_salario)
+FROM departamento d, funcionario f
+JOIN cargo c ON c.cd_cargo = f.cd_cargo
+WHERE f.cd_departamento = d.cd_departamento
+GROUP BY nm_departamento
+ORDER BY nm_departamento
+
+-----------------------------------------------------------------------------------------------------------------------------
+/*Retorne o total de funcionários por departamento. */
+
+Query:
+
+SELECT nm_departamento, COUNT(*)
+FROM departamento d
+JOIN funcionario f on f.cd_departamento = d.cd_departamento
+GROUP BY nm_departamento
+
+------------------------------------------------------------------------------------------------------------------------------
+/*Retorne a média salarial por departamento (calcular os salários pelo mesmo método acima). */
+
+Query:
+
+SELECT nm_departamento, SUM(vl_sal_bruto * pc_salario)
+FROM funcionario f 
+JOIN cargo c  ON c.cd_cargo = f.cd_cargo
+JOIN departamento d ON d.cd_departamento = f.cd_departamento
+GROUP BY nm_departamento
+ORDER BY nm_funcionario desc

@@ -1,0 +1,53 @@
+CREATE TABLE disciplina (
+  cd_disciplina INTEGER(5) UNSIGNED  NOT NULL   AUTO_INCREMENT,
+  nm_disciplina VARCHAR(200)  NULL    ,
+PRIMARY KEY(cd_disciplina));
+
+
+
+CREATE TABLE Funcionario (
+  cd_funcionario INTEGER UNSIGNED  NOT NULL   AUTO_INCREMENT,
+  nm_funcionario INTEGER UNSIGNED  NULL    ,
+PRIMARY KEY(cd_funcionario));
+
+
+
+CREATE TABLE aluno (
+  cd_aluno INTEGER(5) UNSIGNED  NOT NULL   AUTO_INCREMENT,
+  nm_aluno VARCHAR(200)  NULL    ,
+PRIMARY KEY(cd_aluno));
+
+
+
+CREATE TABLE Departamento (
+  cd_departamento INTEGER UNSIGNED  NOT NULL   AUTO_INCREMENT,
+  cd_funcionario INTEGER UNSIGNED  NOT NULL  ,
+  nm_departamento VARCHAR  NOT NULL    ,
+PRIMARY KEY(cd_departamento)  ,
+INDEX Departamento_FKIndex1(cd_funcionario),
+  FOREIGN KEY(cd_funcionario)
+    REFERENCES Funcionario(cd_funcionario)
+      ON DELETE NO ACTION
+      ON UPDATE NO ACTION);
+
+
+
+CREATE TABLE alunos_nas_disciplinas (
+  cd_disciplina INTEGER(5) UNSIGNED  NOT NULL  ,
+  cd_aluno INTEGER(5) UNSIGNED  NOT NULL    ,
+INDEX alunos_nas_disciplinas_FKIndex1(cd_aluno)  ,
+INDEX alunos_nas_disciplinas_FKIndex2(cd_disciplina),
+  FOREIGN KEY(cd_aluno)
+    REFERENCES aluno(cd_aluno)
+      ON DELETE NO ACTION
+      ON UPDATE NO ACTION,
+  FOREIGN KEY(cd_disciplina)
+    REFERENCES disciplina(cd_disciplina)
+      ON DELETE NO ACTION
+      ON UPDATE NO ACTION);
+
+
+
+
+
+
