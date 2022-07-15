@@ -1,0 +1,12 @@
+CREATE TABLE copia_customers AS
+SELECT *
+FROM Customers
+
+DELETE FROM copia_customers
+
+INSERT INTO copia_customers (CustomerName)
+SELECT CustomerName
+FROM Customers
+WHERE CustomerName LIKE "A%"
+
+
