@@ -1,0 +1,67 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    width: 1920px;
+    height: max-content;
+    overflow-x: hidden;
+    display: flexbox;
+    justify-content: center;
+}
+.imagem{
+    width: 1920px;
+    height: 1080px;
+}
+.textos{
+    display: flexbox;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    color:rgb(26, 131, 182);
+    background-color:  rgb( 11, 16, 36);
+    background-repeat: no-repeat;
+    font-family: san -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: italic;
+    font-size: 42px;
+}
+header{
+    padding: 10px;
+    width: 100%;
+    height: 100px;
+    background-color: darkorange;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font: 22px;
+    font-style: italic;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-decoration: none;
+}
+.espaco{
+    width: 70%;
+    height: 80px;
+    padding-top: 30px;
+    padding-left: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.imgcentro{
+    display: flex;
+    width: 50px;
+    height: 50px;
+
+}
+a{
+    font-size: 22px;
+    color: black;
+    text-decoration: none;
+    padding-right: 50%;
+}
+menu{
+    margin-right: 100px;
+    display: flex;
+    width: 35%;
+    height: 15%;
+}
+
