@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página 3</title>
+</head>
+<body>
+    <h1>Formulário</h1>
+    <form action="" method="GET">
+        <label for="nmPessoa">Nome pessoa:</label>
+        <input type="text" id="nmPessoa" name="nmPessoa" size="30" maxlength="10" value="Marcos" autofocus>
+        <br>
+        <input type="text" nm="login" value="mcardoso" readonly><!--disabled-->
+        <br>
+        <input type="number" name="idade" min="10" max="50">
+        <input type="password" name="dsSenha" maxlength="15" placeholder="Informe a sua senha" required>
+        <br>
+        <label for="flAceita">Campo checkbox</label>
+        <input type="checkbox" id="flAceita" name="flAceita" value="S">
+        <br>
+        <label for="cdOrigem1">Blumenau</label>
+        <input type="radio" id="cdOrigem1" name="cdOrigem" value="Blumenau" checked>
+        <label for="cdOrigem2">Gaspar</label>
+        <input type="radio" id="cdOrigem2" name="cdOrigem" value="Gaspar">
+        <label for="cdOrigem3">Timbó</label>
+        <input type="radio" id="cdOrigem3" name="cdOrigem" value="Timbó">
+        <label for="cdOrigem4">Outra cidade</label>
+        <input type="radio" id="cdOrigem4" name="cdOrigem" value="Outra cidade">
+        <hr>
+        <input type="date" name="exDate">
+        <input type="datetime-local" name="exDateTime">
+        <input type="time" name="exTime">
+        <input type="month" name="exMonth">
+        <input type="week" name="exWeek">
+        <hr>
+        <input type="email" name="endEMail" placeholder="Informe seu e-mail">
+        <input type="color" name="exColor">
+        <input type="file" name="exFile">
+        <input type="hidden" name="exHidden" value="valor">
+        <hr>
+        <input type="submit" value="Submeter">
+        <input type="reset">
+    </form>
+</body>
+</html>
