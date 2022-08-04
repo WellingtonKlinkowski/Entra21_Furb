@@ -1,0 +1,17 @@
+Algoritmo Site Teste
+
+Header com menu oculto
+Logo no canto
+Header Cinza 			| Usar ids e puxar com #
+Background Azul claro com gradient	| Usar class e pxuar com .
+Container no mid com fundo branco	|
+Caixa de dados para email		|
+Frase de fundo "email"		|
+Caixa de dados para senha		|
+Frase de fundo "senha"		|
+Checkbox para lembrar senha		|
+Limpar senha			|
+Footer com since			|
+Nome do criador			|
+Tecnologias usadas			|
+Copyright				|
