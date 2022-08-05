@@ -8,11 +8,14 @@
     <title>Teste CSS</title>
 </head>
 <body>
-    <img src="arquivos/fundo.jpg" alt="Background">
+
+    <div class="fundo">
+        <img src="arquivos/fundo.jpg" alt="Background">
+    </div>
     
     <header>
        <p>Klinkowski Bussines</p>
-       <ul>
+       <ul class="redessociais">
         <li><a href="https://api.whatsapp.com/send?phone=5547992814816&text=Ol%C3%A1.+Este+%C3%A9+o+WhatsApp+de+Wellington+Klinkowski%2C+retornarei+o+mais+breve+poss%C3%ADvel.&_fb_noscript=1" target="_blank"><img src="arquivos/whatsapp.png" alt="Logo do WhatsApp" ></a></li>
         <li><a href="https://www.linkedin.com/in/wellingtonklinkowski/" target="_blank"><img src="arquivos/linkedin.png" alt="Logo do LinkedIn"></a></li>
         <li><a href="https://github.com/WellingtonKlinkowski" target="_blank"><img src="arquivos/github.png" alt="Logo do GitHub"></a></li>
@@ -20,19 +23,27 @@
     </header>
 
     <main>
-        Conteúdo
-        <br><br>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime rem iusto, minus accusamus nisi, ducimus similique repudiandae mollitia iste amet eum libero? Velit illo fugit eaque nihil nam eos possimus?
-        <br><br>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime rem iusto, minus accusamus nisi, ducimus similique repudiandae mollitia iste amet eum libero? Velit illo fugit eaque nihil nam eos possimus?
-        <br><br>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime rem iusto, minus accusamus nisi, ducimus similique repudiandae mollitia iste amet eum libero? Velit illo fugit eaque nihil nam eos possimus?
-        <br><br>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime rem iusto, minus accusamus nisi, ducimus similique repudiandae mollitia iste amet eum libero? Velit illo fugit eaque nihil nam eos possimus?
-        <br><br>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime rem iusto, minus accusamus nisi, ducimus similique repudiandae mollitia iste amet eum libero? Velit illo fugit eaque nihil nam eos possimus?
-        <br><br>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime rem iusto, minus accusamus nisi, ducimus similique repudiandae mollitia iste amet eum libero? Velit illo fugit eaque nihil nam eos possimus?
+
+        <div class="container">
+            <label for="login">Faça seu login</label>
+            <div class="email">
+                <input type="text" name="email" placeholder="Digite seu email" size="45px">
+            </div>
+            <div class="senha">
+                <input type="text" name="senha" placeholder="Digite sua senha" size="45px">
+            </div>
+            <div class="opcoeslogin">
+                <p>Não possui conta? <a href="https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem" target="_blank"> Inscrever-se</a></p>
+                <p>Esqueceu sua senha?<a href="https://recuperacao.acesso.gov.br/recupera/92ebb938-9d00-4661-9122-acd14ce51c50/validacao-facial/inicio" target="_blank"> Recuperar senha</a></p>
+            </div>
+        </div>
+        
+        <div class="conteudo">
+            <h1>Conteúdo</h1>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Inventore odit eaque eius, assumenda maiores libero, iure excepturi suscipit error quia tempora molestiae neque fugit facilis! Ex ut recusandae aliquid necessitatibus</p>
+            <br><br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt modi expedita quisquam veniam veritatis, commodi debitis, iusto ratione asperiores eos est aliquam beatae magnam saepe qui numquam obcaecati voluptate tempora!</p>
+        </div>
     </main>
 
     <footer>
