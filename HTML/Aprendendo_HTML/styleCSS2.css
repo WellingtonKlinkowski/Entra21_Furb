@@ -13,8 +13,7 @@ body{
 }
 
 .fundo{
-    position: static;
-    width: 1920px;
+    width: 100%;
     height: max-content;
     position: fixed;
     opacity: 1.0;
