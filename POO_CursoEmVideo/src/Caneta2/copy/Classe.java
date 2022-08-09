@@ -5,7 +5,7 @@ public class Classe {
 	// Classe Caneta
 	public String modelo;
 	public String cor;
-	private Double ponta;
+	public Double ponta;
 	protected int tinta;
 	protected boolean tampada;
 
@@ -25,11 +25,11 @@ public class Classe {
 		this.cor = cor;
 	}
 
-	private Double getPonta() {
+	public Double getPonta() {
 		return ponta;
 	}
 
-	private void setPonta(Double ponta) {
+	public void setPonta(Double ponta) {
 		this.ponta = ponta;
 	}
 
