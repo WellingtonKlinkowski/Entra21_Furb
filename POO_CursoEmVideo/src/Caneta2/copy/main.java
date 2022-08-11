@@ -59,7 +59,7 @@ public class main {
 							condicao = false;
 						}
 					} else {
-						System.out.println("Caneta parada.");
+						System.out.println("Caneta parada, impossível usar a caneta sem antes destampar.");
 						condicao = false;
 					}
 				} else if (estadoTampa == 'N') {
@@ -88,7 +88,7 @@ public class main {
 
 			} else {
 				condicao = false;
-				System.out.println("Caneta parada!");
+				System.out.println("Caneta parada, impossível usar a caneta sem sua permissão");
 			}
 		}
 	}
