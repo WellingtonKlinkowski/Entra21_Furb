@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body
+{
+    background-image: url(imgs/fundo.jpg);
+    background-size: cover;
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+}
+
+header
+{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 700;
+}
+
+header a
+{
+    text-decoration: none;
+    list-style: none;
+}
+
+header ul li
+{
+    list-style: none;
+    margin-left: 20px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+header ul li a
+{
+    padding: 6px 15px;
+    color: aliceblue;
+}
+
+header ul li a:hover
+{
+background: rgb(243, 0, 89);
+color: rgb(255, 255, 255);
+border-bottom-style: solid;
+border-color: rgb(0, 110, 255);
+border-radius: 25px;
+}
+
+header .nome:hover
+{
+    background: rgb(243, 0, 89);
+    color: rgb(255, 255, 255);
+    border-bottom-style: solid;
+    border-color: rgb(0, 110, 255);
+    border-radius: 50px;
+}
+
+header ul
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header .nome
+{
+    padding: 5px 10px;
+    color: aliceblue;
+    font-size: 3em;
+    letter-spacing: 2px;
+}
+
+main .perfil
+{
+    border-style: solid;
+    border-color: rgb(243, 0, 89);
+    border-radius: 50%;
+    border-bottom-width: 0.6vmin;
+    width: 15vw;
+}
+
+.borderPic
+{
+    display: flex;
+    border-radius: 50%;
+    width: 15vw;
+    border-bottom-style: solid;
+    border-color: rgb(0, 110, 255);
+    border-bottom-width: 0.60vmin;
+}
+
+main
+{
+    width: 50%;
+    height: max-content;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    padding: 20px;
+    top: 15vw;
+    left: 22vw;
+    background-color: rgba(240, 248, 255, 0.3);
+    border-color: rgb(0, 110, 255);
+    border-radius: 40px;
+    backdrop-filter: blur(20px);
+    border-style: outset;
+}
+
+main:hover
+{
+    -moz-transform: scale(0.5);
+	-webkit-transform: scale(0.5);
+	transform: scale(1.01);
+}
+
+main .sobre
+{
+    font-family: 'Poppins', sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    width: 600px;
+    height: max-content;
+}
+
+main .sobre .left
+{
+    text-align: left;
+}
+
+main .sobre .center
+{
+    text-align: center;
+}
+
+main .sobre .right
+{
+    text-align: right;
+}
+
+.redesSociais .listaSociais img
+{
+    width: 42px;
+    height: 42px;
+}
+
+.redesSociais ul li
+{
+    list-style: none;
+}
+
+.redesSociais ul li a
+{
+    text-decoration: none;
+}
+
+.redesSociais
+{
+    position: fixed;
+    display: flex;
+    right: 0px;
+    width: 50px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    margin-top: 10vw;
+    height: max-content;
+    background-color: rgb(255, 255, 255);
+    overflow-x: hidden;
+    border-radius: 20px;
+}
