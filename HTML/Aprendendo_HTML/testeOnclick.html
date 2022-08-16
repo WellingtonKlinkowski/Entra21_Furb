@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste Onclick</title>
+    <style>
+        body
+        {
+            display: flex;
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+            background-color: rgb(255, 128, 82);
+        }
+
+        .main button
+        {
+            margin: 10px;
+            padding-right: 10px;
+        }
+
+        button 
+        {
+            font-weight: 700;
+            font-size: larger;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+            display: inline-block;
+            text-align: center;
+            align-items: flex-start;
+            box-sizing: border-box;
+            background-color: cornflowerblue;
+            margin: 0em;
+            color: rgb(255, 255, 255);
+            padding: 1px 6px;
+            border-width: 2px;
+            border-style: outset;
+            border-color: cornflowerblue;
+
+        }
+
+
+        .main
+        {
+            display: flexbox;
+            position: absolute;
+            color: cornflowerblue;
+            padding-top: 2vh;
+            padding-left: 2vh;
+        }
+
+    </style>
+</head>
+<body>
+
+    <img id="imagem" src="arquivos/fundo1.jpg" alt="#" width="100%">
+
+    <div class="main">
+        <h1 id="texto">Olá, mundão.</h1>
+        <button class="trocaCor" onclick="document.getElementById('texto').style.color='white'" ondblclick="document.getElementById('texto').style.color='cornflowerblue'">Cor da letra</button>
+        <button class="trocaFrase" onclick="document.getElementById('texto').innerHTML='Hello world'" ondblclick="document.getElementById('texto').innerHTML='Olá, mundão.'">Troque a frase.</button>
+        <button class="troca" onclick="document.getElementById('imagem').src='arquivos/fundo.jpg'" ondblclick="document.getElementById('imagem').src='arquivos/fundo3.jpg'">Troque de imagem</button>
+    </div>
+</body>
+</html>
