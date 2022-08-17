@@ -12,10 +12,13 @@ body
 {
     background-image: url(imgs/fundo.jpg);
     background-size: cover;
-    min-height: 100vh;
+    background-attachment: fixed;
+    position: relative;
+    height: max-content;
     width: 100%;
     display: flex;
 }
+
 
 header
 {
@@ -107,17 +110,20 @@ main
     width: 50%;
     height: max-content;
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     position: absolute;
     padding: 20px;
-    top: 15vw;
+    top: 18vw;
     left: 22vw;
     background-color: rgba(240, 248, 255, 0.3);
     border-color: rgb(0, 110, 255);
     border-radius: 40px;
     backdrop-filter: blur(20px);
     border-style: outset;
+    transition-duration: 1s;
 }
 
 main:hover
@@ -182,4 +188,201 @@ main .sobre .right
     background-color: rgb(255, 255, 255);
     overflow-x: hidden;
     border-radius: 20px;
+}
+
+.tecnologias
+{
+    width: 80%;
+    height: max-content;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 3fr 3fr;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 1000px;
+    left: 9%;
+    padding: 0px;
+}
+
+.tecnologias img
+{
+    width: 80px;
+    height: 80px;
+}
+
+.tecnologias .html
+{
+    width: 320px;
+    height: 420px;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    background-color: rgba(240, 248, 255, 0.3);
+    border-color: rgb(0, 110, 255);
+    border-radius: 40px;
+    backdrop-filter: blur(20px);
+    border-style: outset;
+    transition-duration: 1s;
+}
+
+.tecnologias .css
+{
+    width: 320px;
+    height: 420px;
+    background-color: aliceblue;
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    background-color: rgba(240, 248, 255, 0.3);
+    border-color: rgb(0, 110, 255);
+    border-radius: 40px;
+    backdrop-filter: blur(20px);
+    border-style: outset;
+    transition-duration: 1s;
+}
+
+.tecnologias .js
+{
+    width: 320px;
+    height: 420px;
+    background-color: aliceblue;
+    grid-column-start: 3;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    background-color: rgba(240, 248, 255, 0.3);
+    border-color: rgb(0, 110, 255);
+    border-radius: 40px;
+    backdrop-filter: blur(20px);
+    border-style: outset;
+    transition-duration: 1s;
+}
+
+.tecnologias .java
+{
+    width: 320px;
+    height: 420px;
+    background-color: aliceblue;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 3;
+    grid-row-end: 3;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    background-color: rgba(240, 248, 255, 0.3);
+    border-color: rgb(0, 110, 255);
+    border-radius: 40px;
+    backdrop-filter: blur(20px);
+    border-style: outset;
+    transition-duration: 1s;
+}
+
+.tecnologias .mysql
+{
+    width: 320px;
+    height: 420px;
+    background-color: aliceblue;
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 3;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    background-color: rgba(240, 248, 255, 0.3);
+    border-color: rgb(0, 110, 255);
+    border-radius: 40px;
+    backdrop-filter: blur(20px);
+    border-style: outset;
+    transition-duration: 1s;
+}
+
+.tecnologias .github
+{
+    width: 320px;
+    height: 420px;
+    background-color: aliceblue;
+    grid-column-start: 3;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 3;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    background-color: rgba(240, 248, 255, 0.3);
+    border-color: rgb(0, 110, 255);
+    border-radius: 40px;
+    backdrop-filter: blur(20px);
+    border-style: outset;
+    transition-duration: 1s;
+
+}
+
+.tecnologias article
+{
+    margin: 88px;
+}
+
+.tecnologias .titleTecnologias
+{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 52px;
+    font-family: url(font/Poppins-Thin.otf) sans-serif;
+    color: aliceblue;
+}
+
+.tecnologias article:hover
+{
+    -moz-transform: scale(0.8);
+	-webkit-transform: scale(0.8);
+	transform: scale(1.05);
+}
+
+.rodape
+{
+    width: 25%;
+    height: 45px;
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+    font-family: url(font/Poppins-Thin.otf) sans-serif;
+    font-weight: 700;
+    color: aliceblue;
+    bottom: 0px;
+    left: 700px;
+    text-align: center;
+    display: flexbox;
+    background-color: rgba(240, 248, 255, 0.3);
+    border-color: rgb(0, 110, 255);
+    backdrop-filter: blur(20px);
+    border-top-style: outset;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+}
+
+.rodape:hover
+{
+    -moz-transform: scale(0.3);
+	-webkit-transform: scale(0.3);
+	transform: scale(1.02);
 }
