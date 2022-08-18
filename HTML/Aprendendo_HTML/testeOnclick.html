@@ -51,6 +51,49 @@
         }
 
     </style>
+
+    <script>
+        function criaParagrafo(){
+            const novoParagrafo = document.createElement("p");
+            novoParagrafo.id="novoParagrafo";
+            novoParagrafo.innerHTML = "Novo paragráfo!";
+            document.getElementById("novosElementos").appendChild(novoParagrafo);
+        }
+
+        function insereAntes(){
+            const novoParagrafo = document.createElement("p");
+            novoParagrafo.innerHTML="Mais novo paragráfo!";
+            document.getElementById("novosElementos").insertBefore(novoParagrafo,document.getElementById("novoParagrafo"));
+        }
+
+        function removerFrase(){
+            document.getElementById("novoParagrafo").remove();
+            //document.getElementById("novosElementos").removeChild(document.getElementById("novoParagrafo"));
+        }
+
+        function removerInserirAntes(){
+            document.getElementById("insereAntes").remove();
+            //document.getElementById("novosElementos").removeChild(document.getElementById("novoParagrafo"));
+        }
+
+        function adicionarLinha(){
+            const novaLinha = document.createElement( "tr");
+            adicionarItens(novaLinha);
+            adicionarItens(novaLinha);
+            adicionarItens(novaLinha);
+            document.getElementById("novaLinha").appendChild(novaLinha);
+        }
+
+        function removerLinha(){
+            document.getElementById("adicionarItens").remove();;
+        }
+
+        function adicionarItens(novaLinha){
+            const novaItem = document.createElement( "td");
+            novaItem.innerHTML="Nova";
+            novaLinha.appendChild(novaItem);
+        }
+    </script>
 </head>
 <body>
 
@@ -61,6 +104,20 @@
         <button class="trocaCor" onclick="document.getElementById('texto').style.color='white'" ondblclick="document.getElementById('texto').style.color='cornflowerblue'">Cor da letra</button>
         <button class="trocaFrase" onclick="document.getElementById('texto').innerHTML='Hello world'" ondblclick="document.getElementById('texto').innerHTML='Olá, mundão.'">Troque a frase.</button>
         <button class="troca" onclick="document.getElementById('imagem').src='arquivos/fundo.jpg'" ondblclick="document.getElementById('imagem').src='arquivos/fundo3.jpg'">Troque de imagem</button>
+        <button onclick="insereAntes()">Frase antes</button>
+        <button onclick="criaParagrafo()">Nova frase</button>
+        <button onclick="removerFrase()" ondblclick="removerInserirAntes">Remover Frase</button>
+        <div id="novosElementos">
+
+        </div>
+
+        <button onclick="adicionarLinha()">
+        Nova Linha</button>
+        <button onclick="removerLinha()">Remover linha</button>
+        <table id="novaLinha">
+            <tr><th>Coluna</th><th>Coluna</th><th>Coluna</th></tr>
+            <tr><td>Lorem</td><td>Lorem</td><td>Lorem</td></tr>
+        </table>
     </div>
 </body>
 </html>
