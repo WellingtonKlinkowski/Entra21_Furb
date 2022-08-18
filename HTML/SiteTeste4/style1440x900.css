@@ -1,0 +1,224 @@
+@media (max-width: 1440px){
+
+    /**         CONTAINER        **/
+    .tecnologias
+    {
+        width: 100%;
+        height: min-content;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 100px 1fr 1fr 1fr;
+        position: absolute;
+        justify-content: space-around;
+        top: 1100px;
+        left: 0;
+        padding-left: 7.5%;
+        padding-right: 7.5%;
+    }
+
+
+    /**         TITLE        **/
+    .tecnologias h1
+    {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 1;
+        grid-row-end: 1;
+        margin: 0px;
+        padding-left: 0px;
+        padding-top: 40px;
+        display: flex;
+        text-align: center;
+        align-items: center;
+    }
+
+
+    /**         ARTICLE        **/
+    .tecnologias article
+    {
+        margin-left: 23%;
+    }
+    
+
+    /**         HTML        **/
+    .tecnologias .html .textoHTML
+    {
+      display: flex; 
+      position: absolute; 
+      text-align: center;
+      font-size: 18px;
+      font-family: url(font/Poppins-Thin.otf) sans-serif;
+      color: aliceblue;
+      font-weight: 700;
+      padding: 20px;
+    }
+
+    .tecnologias .html .imgHTML
+    {
+        display: flex;
+    }
+
+    .tecnologias .html
+    {
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 2;
+        grid-row-end: 2;
+    }
+
+
+    /**         CSS        **/
+    .tecnologias .css .textoCSS
+    {
+      display: flex; 
+      position: absolute; 
+      text-align: center;
+      font-size: 18px;
+      font-family: url(font/Poppins-Thin.otf) sans-serif;
+      color: aliceblue;
+      font-weight: 700;
+      padding: 20px;
+    }
+
+    .tecnologias .css .imgCSS
+    {
+        display: flex;
+    }
+
+    .tecnologias .css
+    {
+        grid-column-start: 2;
+        grid-column-end: 2;
+        grid-row-start: 2;
+        grid-row-end: 2;
+    }
+
+
+    /**         JS        **/
+    .tecnologias .js .textoJS
+    {
+      display: flex; 
+      position: absolute; 
+      text-align: center;
+      font-size: 18px;
+      font-family: url(font/Poppins-Thin.otf) sans-serif;
+      color: aliceblue;
+      font-weight: 700;
+      padding: 20px;
+    }
+
+    .tecnologias .js .imgJS
+    {
+        display: flex;
+    }
+
+    .tecnologias .js
+    {
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 3;
+        grid-row-end: 3;
+    }
+
+
+    /**         JAVA        **/
+    .tecnologias .java .textoJAVA
+    {
+      display: flex; 
+      position: absolute; 
+      text-align: center;
+      font-size: 18px;
+      font-family: url(font/Poppins-Thin.otf) sans-serif;
+      color: aliceblue;
+      font-weight: 700;
+      padding: 20px;
+    }
+
+    .tecnologias .java .imgJAVA
+    {
+        display: flex;
+    }
+
+    .tecnologias .java
+    {
+        grid-column-start: 2;
+        grid-column-end: 2;
+        grid-row-start: 3;
+        grid-row-end: 3;
+    }
+
+
+    /**         MYSQL        **/
+    .tecnologias .mysql .textoMYSQL
+    {
+      display: flex; 
+      position: absolute; 
+      text-align: center;
+      font-size: 18px;
+      font-family: url(font/Poppins-Thin.otf) sans-serif;
+      color: aliceblue;
+      font-weight: 700;
+      padding: 20px;
+    }
+
+    .tecnologias .mysql .imgMYSQL
+    {
+        display: flex;
+    }
+
+    .tecnologias .mysql
+    {
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 4;
+        grid-row-end: 4;
+    }
+
+
+    /**         GITHUB        **/
+    .tecnologias .github .textoGITHUB
+    {
+      display: flex; 
+      position: absolute; 
+      text-align: center;
+      font-size: 18px;
+      font-family: url(font/Poppins-Thin.otf) sans-serif;
+      color: aliceblue;
+      font-weight: 700;
+      padding: 20px;
+    }
+
+    .tecnologias .github .imgGITHUB
+    {
+        display: flex;
+    }
+
+    .tecnologias .github
+    {
+        grid-column-start: 2;
+        grid-column-end: 2;
+        grid-row-start: 4;
+        grid-row-end: 4;
+    }
+
+    .redesSociais
+    {
+        margin-right: 1px;
+    }
+
+    main .borderPic
+    {
+        display: flex;
+        margin-bottom: 20px;
+        position: relative;
+        width: max-content;
+        left: 35%;
+    }
+
+    main .sobre
+    {
+        display: flexbox;
+        position: relative;
+        width: 100%;
+    }
+}
