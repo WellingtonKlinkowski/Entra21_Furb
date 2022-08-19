@@ -81,11 +81,12 @@
             adicionarItens(novaLinha);
             adicionarItens(novaLinha);
             adicionarItens(novaLinha);
+            novaLinha.id="removerLinha";
             document.getElementById("novaLinha").appendChild(novaLinha);
         }
 
         function removerLinha(){
-            document.getElementById("adicionarItens").remove();;
+            document.getElementById("removerLinha").remove();;
         }
 
         function adicionarItens(novaLinha){
@@ -93,6 +94,9 @@
             novaItem.innerHTML="Nova";
             novaLinha.appendChild(novaItem);
         }
+
+        
+
     </script>
 </head>
 <body>

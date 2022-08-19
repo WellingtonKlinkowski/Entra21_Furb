@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            display: flexbox;
+            background-color: darkslateblue;
+        }
+
+        *{
+            margin: 5px;
+            padding: 10px;
+        }
+    </style>
+    <script>
+        function novaTable(){
+            const novaLinha = document.createElement( "tr");
+            adicionarItens1(entrada1);
+            adicionarItens2(entrada2);
+            adicionarItens3(entrada3);
+            document.getElementById("table").appendChild(novaLinha);
+        }
+
+        function adicionarItens1(entrada1){
+            const novoItem = document.createElement("td");
+            novoItem = entrada1.value;
+            novoItem.appendChild(novoItem);
+        }
+        
+        function adicionarItens2(entrada2){
+            const novoItem2 = document.createElement("td");
+            novoItem2 = entrada2.value;
+            novoItem2.appendChild(novoItem2);
+        }
+
+        function adicionarItens3(entrada3){
+            const novoItem3 = document.createElement("td");
+            novoItem3 = entrada3.value;
+            novoItem3.appendChild(novoItem3);
+        }
+    </script>
+</head>
+<body>
+    <input id="nome" type="text" onkeyup="document.getElementById('mensagem').innerHTML=document.getElementById('nome').value">
+    <button class="nomeUser" onclick="alert('Olá, ' +document.getElementById('nome').value);">nome</button>
+    <button class="mostra" onclick="document.getElementById('mensagem').innerHTML=document.getElementById('nome').value">Mostra outro</button>
+    <button onclick="document.getElementById('nome').value = ''">Apaga</button>
+    <div id="mensagem">
+    </div>
+
+
+    <input type="number" id="number1" placeholder="Número 1">
+    <input type="number" id="number2" placeholder="Número 2">
+    <br>
+    <button id="somar" onclick="document.getElementById('resultado').value=Number(number1.value) + Number(number2.value)">+</button>
+    <button id="subtrair" onclick="document.getElementById('resultado').value=Number(number1.value) - Number(number2.value)">-</button>
+    <button id="multiplicar" onclick="document.getElementById('resultado').value=Number(number1.value) * Number(number2.value)">*</button>
+    <button id="dividir" onclick="document.getElementById('resultado').value=Number(number1.value) / Number(number2.value)">/</button>
+    <input type="number" id="resultado" placeholder="Resultado">
+
+    <div>
+        <input type="text" id="entrada1" placeholder="Valor 1">
+        <input type="text" id="entrada2" placeholder="Valor 2">
+        <input type="text" id="entrada2" placeholder="Valor 3">
+        <button id="inserirNaTabela" onclick="novaTable()">Inserir na tabela</button>
+        <table id="tabela">
+            <tr><th>COL 1</th><th>COL 2</th><th>COL 3</th></tr>
+            <tr><td>Valor 1</td><td>Valor 2</td><td>Valor 3</td></tr>
+        </table>
+    </div>
+
+
+</body>
+</html>
