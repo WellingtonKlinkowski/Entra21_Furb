@@ -17,30 +17,22 @@
         }
     </style>
     <script>
+
+        let num = 1;
         function novaTable(){
             const novaLinha = document.createElement( "tr");
-            adicionarItens1(entrada1);
-            adicionarItens2(entrada2);
-            adicionarItens3(entrada3);
-            document.getElementById("table").appendChild(novaLinha);
+            novaLinha.id = "tomba" + num;
+            document.getElementById("tabela").appendChild(novaLinha);
+            adicionarItens1(document.getElementById("entrada1").value);
+            adicionarItens1(document.getElementById("entrada2").value);
+            adicionarItens1(document.getElementById("entrada3").value);
+            num++;
         }
 
         function adicionarItens1(entrada1){
             const novoItem = document.createElement("td");
-            novoItem = entrada1.value;
-            novoItem.appendChild(novoItem);
-        }
-        
-        function adicionarItens2(entrada2){
-            const novoItem2 = document.createElement("td");
-            novoItem2 = entrada2.value;
-            novoItem2.appendChild(novoItem2);
-        }
-
-        function adicionarItens3(entrada3){
-            const novoItem3 = document.createElement("td");
-            novoItem3 = entrada3.value;
-            novoItem3.appendChild(novoItem3);
+            novoItem.innerHTML = entrada1;
+            document.getElementById("tomba" + num).appendChild(novoItem);
         }
     </script>
 </head>
@@ -63,9 +55,9 @@
     <input type="number" id="resultado" placeholder="Resultado">
 
     <div>
-        <input type="text" id="entrada1" placeholder="Valor 1">
-        <input type="text" id="entrada2" placeholder="Valor 2">
-        <input type="text" id="entrada2" placeholder="Valor 3">
+        <input type="number" id="entrada1" placeholder="Valor 1">
+        <input type="number" id="entrada2" placeholder="Valor 2">
+        <input type="number" id="entrada3" placeholder="Valor 3">
         <button id="inserirNaTabela" onclick="novaTable()">Inserir na tabela</button>
         <table id="tabela">
             <tr><th>COL 1</th><th>COL 2</th><th>COL 3</th></tr>
