@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="classePessoas.js"></script>
+    <title>Main Pessoa</title>
+</head>
+<body>
+    <script>
+            // vPessoa = new pessoa("Wellington", "Klinkowski", "1999-03-30");
+            //console.log(vPessoa.getNome() + (" ") + vPessoa.getSobrenome());
+            //console.log(vPessoa.getNascimento());
+            //console.log(vPessoa.nomeTodo());
+            var vPessoa2 = null;
+
+            function instanciarNome(){
+                var vPessoa2 = new pessoa(
+                    document.getElementById("nome").value,
+                    document.getElementById("sobrenome").value,
+                    null
+                )
+            
+            function mostrarNome(){
+                document.getElementById('apresentarNome').innerHTML = vPessoa2.nomeTodo();
+            }
+
+            function salvarCookie(){
+                document.cookie = "nome="+document.getElementById('nome').value;
+            }
+        }
+    </script>
+
+    <input type="text" name="Nome" placeholder="primeiro nome" id="nome">
+    <input type="text" name="Sobrenome" placeholder="sobrenome" id="sobrenome">
+    <button class="juntarNome" onclick="instanciarNome()">Instanciar nome</button>
+    <button class="mostrarNome" onclick="mostrarNome()">Mostrar o nome</button>
+    <button onclick="salvarCookie()">Salvar cookie</button>
+    <div class="apresentarNome">
+        <!--objeto.nomeCompleto()-->
+    </div>
+
+</body>
+</html>
