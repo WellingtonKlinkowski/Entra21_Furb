@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo Promises</title>
+</head>
+<body>
+    <script>
+        function lancaDado(){
+            return Math.floor(Math.random() * 6) + 1;
+        }
+
+        var promessa = new Promise(
+            (cumpriu, quebrou) => {
+                var dado = lancaDado();
+                if (dado == 6 || dado == 3){
+                    //cumpriu
+                    cumpriu(dado);
+                }
+                else{
+                    //não cumpriu
+                    quebrou(dado);
+                }
+            }
+        );
+
+        promessa.then(
+            (nrDado) =>{
+                console.log('Cumpriu! ->' + nrDado);
+            }
+        )
+        .catch(
+            (nrDado) =>{
+                console.log('Não cumpriu! ->' + nrDado);
+            }
+        );
+    </script>
+</body>
+</html>
