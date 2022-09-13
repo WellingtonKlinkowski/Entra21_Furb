@@ -12,6 +12,7 @@ import {MatSidenavModule} from '@angular/material/sidenav';
 import { NavComponent } from './components/templates/nav/nav.component';
 import { HomeComponent } from './components/views/home/home.component';
 import {MatIconModule} from '@angular/material/icon';
+import { TesteAngularComponent } from './teste-angular/teste-angular.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import {MatIconModule} from '@angular/material/icon';
     HeaderComponent,
     FooterComponent,
     NavComponent,
-    HomeComponent
+    HomeComponent,
+    TesteAngularComponent
   ],
   imports: [
     MatIconModule,
