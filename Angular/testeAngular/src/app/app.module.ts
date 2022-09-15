@@ -19,15 +19,30 @@ import {MatDatepickerModule} from '@angular/material/datepicker';
 import { CalendarioComponent } from './conteudo/calendario/calendario.component';
 import {MatStepperModule} from '@angular/material/stepper';
 import {MatFormFieldModule} from '@angular/material/form-field';
+import {MatChipsModule} from '@angular/material/chips';
+import { ChipsComponent } from './conteudo/chips/chips.component';
+import {MatProgressBarModule} from '@angular/material/progress-bar';
+import {MatTableModule} from '@angular/material/table';
+import {MatTabsModule} from '@angular/material/tabs';
+import { TabsComponent } from './conteudo/tabs/tabs.component';
+import { FormsModule } from '@angular/forms';
+
 
 @NgModule({
   declarations: [
     AppComponent,
     ToolbarComponent,
     GridListComponent,
-    CalendarioComponent
+    CalendarioComponent,
+    ChipsComponent,
+    TabsComponent
   ],
   imports: [
+    FormsModule,
+    MatTabsModule,
+    MatTableModule,
+    MatProgressBarModule,
+    MatChipsModule,
     MatFormFieldModule,
     MatStepperModule,
     MatDatepickerModule,

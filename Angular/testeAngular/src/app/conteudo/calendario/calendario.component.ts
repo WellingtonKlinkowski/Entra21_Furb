@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import {FormBuilder, FormGroup} from '@angular/forms';
 
 @Component({
   selector: 'app-calendario',
@@ -8,9 +7,9 @@ import {FormBuilder, FormGroup} from '@angular/forms';
   
 })
 export class CalendarioComponent implements OnInit {
-  constructor(private _formBuilder: FormBuilder) {}
-  firstFormGroup: FormGroup = this._formBuilder.group({firstCtrl: ['']});
-  secondFormGroup: FormGroup = this._formBuilder.group({secondCtrl: ['']});
+  constructor(){
+    
+  }
   
   ngOnInit(): void {
   }
