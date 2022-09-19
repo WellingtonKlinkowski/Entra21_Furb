@@ -8,14 +8,24 @@ import { HeaderComponent } from './components/templates/header/header.component'
 
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { FooterComponent } from './components/templates/footer/footer.component';
+import {MatSidenavModule} from '@angular/material/sidenav';
+import { NavComponent } from './components/templates/nav/nav.component';
+import { HomeComponent } from './components/views/home/home.component';
+import {MatIconModule} from '@angular/material/icon';
+import { TesteAngularComponent } from './teste-angular/teste-angular.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    NavComponent,
+    HomeComponent,
+    TesteAngularComponent
   ],
   imports: [
+    MatIconModule,
+    MatSidenavModule,
     MatToolbarModule,
     BrowserModule,
     AppRoutingModule,

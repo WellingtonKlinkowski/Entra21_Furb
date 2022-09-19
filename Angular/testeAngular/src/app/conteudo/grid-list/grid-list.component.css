@@ -1,0 +1,17 @@
+mat-grid-tile{
+    background-image: radial-gradient(rgba(84, 4, 159, 0.8) , rgba(223, 206, 239, 0.5));
+    border-radius: 40px;
+    border-width: 1px;
+    border: rgba(84, 4, 159, 0.8) solid;
+    margin: 4px;
+}
+
+mat-grid-list{
+    margin:30px;
+    position: relative;
+}
+
+mat-grid-tile img{
+    width: 120px;
+    height: 120px;
+}

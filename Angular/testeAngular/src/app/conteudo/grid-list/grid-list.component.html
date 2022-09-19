@@ -1,0 +1,16 @@
+<mat-grid-list cols="2" rowHeight="2:1">
+    <mat-grid-tile id="1"><img src="../../../assets/email.png" alt="#"></mat-grid-tile>
+    <mat-grid-tile class="2"><img src="../../../assets/location.png" alt="#"></mat-grid-tile>
+    <mat-grid-tile class="3"><img src="../../../assets/telephone-call.png" alt="#"></mat-grid-tile>
+    <mat-grid-tile class="4"><img src="../../../assets/web.png" alt="#"></mat-grid-tile>
+</mat-grid-list>
+
+<div>
+    <div>
+        <input type="text" name="" id="" [(ngModel)]="buscaAlbum">
+        <button (click)="buscarAlbum()">Buscar Album</button>
+    </div>
+    <div style="color: black;">
+        {{ album.id + " - " + album.userId + " - " + album.title}}
+    </div>
+</div>

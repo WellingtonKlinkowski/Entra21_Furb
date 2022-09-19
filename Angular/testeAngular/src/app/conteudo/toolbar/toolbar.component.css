@@ -1,0 +1,16 @@
+.example-spacer {
+    flex: 1 1 auto;
+  }
+
+mat-toolbar{
+    background-color:aliceblue;
+    padding: 8px;
+}
+
+.titleHeader{
+    font-family: sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    color: blueviolet;
+    margin-left: 10px;
+}
