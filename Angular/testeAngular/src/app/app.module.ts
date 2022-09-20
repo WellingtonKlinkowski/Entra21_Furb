@@ -26,6 +26,8 @@ import {MatTableModule} from '@angular/material/table';
 import {MatTabsModule} from '@angular/material/tabs';
 import { TabsComponent } from './conteudo/tabs/tabs.component';
 import { FormsModule } from '@angular/forms';
+import { AlbumGetAllComponent } from './models/album-get-all/album-get-all.component';
+import { AlbumGetIdComponent } from './models/album-get-id/album-get-id.component';
 
 
 @NgModule({
@@ -35,7 +37,9 @@ import { FormsModule } from '@angular/forms';
     GridListComponent,
     CalendarioComponent,
     ChipsComponent,
-    TabsComponent
+    TabsComponent,
+    AlbumGetAllComponent,
+    AlbumGetIdComponent
   ],
   imports: [
     FormsModule,

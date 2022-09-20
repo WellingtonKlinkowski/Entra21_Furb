@@ -13,6 +13,7 @@ export interface Album{
 })
 
 export class GridListComponent implements OnInit {
+vetAlbum: Album [] = []
 contador: number = 1;
 opcao: number = 0;
 buscaAlbum: number = 0;
@@ -24,17 +25,71 @@ album: Album = {
   constructor() { }
 
   ngOnInit(): void {
-    fetch('https://jsonplaceholder.typicode.com/posts/1')
-      .then((response) => {console.log(response); response.json()})
+    fetch('https://jsonplaceholder.typicode.com/albums')
+      .then((response) => response.json())
+      .then((json) => this.vetAlbum = json);
+
+    /*fetch('https://jsonplaceholder.typicode.com/posts', {
+      method: 'POST',
+      body: JSON.stringify({
+        title: 'foo',
+        body: 'bar',
+        userId: 1,
+      }),
+      headers: {
+        'Content-type': 'application/json; charset=UTF-8',
+      },
+    })
+      .then((response) => response.json())
       .then((json) => console.log(json));
+
+      fetch('https://jsonplaceholder.typicode.com/posts/1', {
+        method: 'PUT',
+        body: JSON.stringify({
+          id: 1,
+          title: 'foo',
+          body: 'bar',
+          userId: 1,
+      }),
+      headers: {
+        'Content-type': 'application/json; charset=UTF-8',
+      },
+    })
+      .then((response) => response.json())
+      .then((json) => console.log(json));
+
+
+      fetch('https://jsonplaceholder.typicode.com/albums/1', {
+        method: 'DELETE',
+      });
+
+      fetch('https://api.onlinewebtutorblog.com/employees/1', {
+        method: 'DELETE',
+      })
+      .then((response) => response.json())
+      .then((json) => console.log(json));*/
+
+
+      
   }
 
+  excluir(): void{
+    fetch(`https://jsonplaceholder.typicode.com/albums/${this.album}`, {
+  method: 'DELETE',
+  
+})
+.then((response) => response.json())
+.then((json) => window.alert("Excluído"));
+
+
+  }
+  
+
   buscarAlbum(): void{
-    fetch(`https://jsonplaceholder.typicode.com/albums/${this.buscaAlbum}`)
+    fetch(`https://jsonplaceholder.typicode.com/albums22/${this.buscaAlbum}`)
       .then((response) => response.json())
       .then((json) => this.album = json);
   }
-
 }
 
 

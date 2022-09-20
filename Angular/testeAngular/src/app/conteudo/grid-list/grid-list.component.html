@@ -14,3 +14,24 @@
         {{ album.id + " - " + album.userId + " - " + album.title}}
     </div>
 </div>
+
+<input type="number" placeholder="id">
+<input type="number" placeholder="userId">
+<input type="text" placeholder="title">
+<button class="insere">Insere</button>
+<button class="salva">Salvar</button>
+
+<th class="tabela">
+    <tr>
+        <td>ID</td>
+        <td>User ID</td>
+        <td>Title</td>
+    </tr>
+    <tr *ngFor="let Album of vetAlbum;">
+        <td>{{Album.id}}</td>
+        <td>{{Album.userId}}</td>
+        <td>{{Album.title}}</td>
+        <button class="edita" >Editar</button>
+        <button class="excluir" (click)="excluir()">Excluir</button>
+    </tr>
+</th>

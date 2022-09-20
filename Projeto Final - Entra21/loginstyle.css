@@ -119,35 +119,6 @@ body{
     margin-bottom: 30px;
 }
 
-footer .p1{
-    width: 100%;
-    height: 20px;
-    position: fixed;
-    bottom: 0px;
-    text-align: center;
-    justify-content: center;
-    justify-items: center;
-    align-content: center;
-    align-items: center;
-    color: aliceblue;
-    font-size: 14px;
-    font-weight: 700;
-}
-
-footer .p2{
-    width: 100%;
-    height: 20px;
-    position: fixed;
-    bottom: 15px;
-    text-align: center;
-    justify-content: center;
-    justify-items: center;
-    align-content: center;
-    align-items: center;
-    color: aliceblue;
-    font-size: 14px;
-    font-weight: 800;
-}
 
 /*Tablet*/
 @media (min-width: 720px) {
@@ -217,20 +188,6 @@ footer .p2{
         margin-top: 8px;
         margin-bottom: 8px;
     }
-
-    footer .p1{
-        height: 30px;
-        bottom: 0px;
-        font-size: 18px;
-        font-weight: 800;
-    }
-    
-    footer .p2{
-        height: 20px;
-        bottom: 30px;
-        font-size: 18px;
-        font-weight: 800;
-    }
     
 }
 
@@ -244,21 +201,21 @@ footer .p2{
     }
 
     .login{
-        margin-top: 140px;
-        padding-left: 440px;
-        padding-right: 440px;
+        margin-top: 80px;
+        padding-left: 480px;
+        padding-right: 480px;
     }
 
     .login .title{
-        margin: 30px;
-        font-size: 54px;
+        margin: 20px;
+        font-size: 44px;
         font-weight: 800;
         margin-top: 40px;
-        margin-bottom: 50px;
+        margin-bottom: 30px;
     }
 
     .login input{
-        height: 50px;
+        height: 40px;
         font-size: 22px;
         margin-top: 15px;
         margin-bottom: 15px;
@@ -277,28 +234,14 @@ footer .p2{
     }
 
     .login p a{
-        font-size: 22px;
+        font-size: 20px;
     }
 
     .containerLogin p{
-        font-size: 22px;
+        font-size: 20px;
         font-weight: 700;
         margin-top: 8px;
         margin-bottom: 8px;
-    }
-
-    footer .p1{
-        height: 30px;
-        bottom: 0px;
-        font-size: 18px;
-        font-weight: 800;
-    }
-    
-    footer .p2{
-        height: 20px;
-        bottom: 30px;
-        font-size: 18px;
-        font-weight: 800;
     }
     
 }
@@ -315,19 +258,5 @@ footer .p2{
         margin-top: 140px;
         padding-left: 600px;
         padding-right: 600px;
-    }
-
-    footer .p1{
-        height: 30px;
-        bottom: 0px;
-        font-size: 16px;
-        font-weight: 800;
-    }
-    
-    footer .p2{
-        height: 20px;
-        bottom: 30px;
-        font-size: 16px;
-        font-weight: 800;
     }
 }
