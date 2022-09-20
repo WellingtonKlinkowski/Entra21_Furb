@@ -4,6 +4,44 @@
     box-sizing: border-box;
 }
 
+/*Molbile Galaxy Fold*/
+/*@media (max-width: 281px) {
+    .logo img{
+        width: 100%;
+    }
+
+    .logo{
+        width: 100%;
+        margin: 0px;
+        padding: 12px;
+        border-radius: 0px;
+    }
+
+    .login{
+        width: 100%;
+        margin-top: 80px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .login .title{
+        font-size: 24px;
+    }
+
+    .login input{
+        width: 95%;
+        margin-top: 2px;
+        height: 24px;
+    }
+
+    .login p{
+        font-size: 12px;
+    }
+
+    .login p a{
+        font-size: 12px;
+    }
+}*/
 
 /*Mobile*/
 body{
@@ -85,13 +123,15 @@ body{
     color: #3e82ff;
     text-decoration: none;
     font-size: 16px;
+    cursor: pointer;
+    
 }
 
 .login .title{
     grid-column: 1;
     grid-row: 1;
     margin: 20px;
-    font-size: 40px;
+    font-size: 30px;
     font-weight: 800;
 }
 
@@ -111,12 +151,63 @@ body{
 
 }
 
+
 .containerLogin .inscrever{
     margin-top: 20px;
 }
 
 .containerLogin .esqueceu{
     margin-bottom: 30px;
+}
+
+.buttons{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.btn-entrar:hover{
+    -moz-transform: scale(0.5);
+	-webkit-transform: scale(0.5);
+	transform: scale(1.03);
+    transition-duration: 0.5s;
+    background-color: #49226d;
+    color: aliceblue;
+    border-color: aliceblue;
+}
+
+.btn-entrar{
+    width: 30%;
+    font-size: 14px;
+    color: var(--cor-site);
+    font-weight: 700;
+    background-color: aliceblue;
+    cursor: pointer;
+    border: solid rgb(55, 2, 90) 2px;
+    border-radius: 20px;
+    padding: 2px;
+}
+
+
+.btn-apagar:hover{
+    -moz-transform: scale(0.5);
+	-webkit-transform: scale(0.5);
+	transform: scale(1.03);
+    transition-duration: 0.5s;
+    background-color: #49226d;
+    color: aliceblue;
+    border-color: aliceblue;
+}
+
+.btn-apagar{
+    width: 30%;
+    font-size: 14px;
+    color: var(--cor-site);
+    font-weight: 700;
+    background-color: aliceblue;
+    cursor: pointer;
+    border: solid rgb(55, 2, 90) 2px;
+    border-radius: 20px;
+    padding: 2px;
 }
 
 
@@ -188,7 +279,59 @@ body{
         margin-top: 8px;
         margin-bottom: 8px;
     }
+
+    .buttons{
+        margin-top: 15px;
+        margin-bottom: 8px;
+    }
     
+    .btn-entrar{
+        width: 35%;
+        height: 30px;
+        font-size: 18px;
+    }
+    
+    .btn-apagar{
+        width: 35%;
+        height: 30px;
+        font-size: 18px;
+    }
+    
+}
+
+/*Tablet HD*/
+@media (min-width: 1024px) {
+    
+    .logo{
+        margin-left: 120px;
+        margin-right: 120px;
+    }
+
+    .login{
+        margin-top: 220px;
+    }
+    
+    .login input{
+        margin-left: 85px;
+        margin-right: 85px;
+    }
+
+    .buttons{
+        margin-top: 15px;
+        margin-bottom: 8px;
+    }
+    
+    .btn-entrar{
+        width: 27%;
+        height: 40px;
+        font-size: 18px;
+    }
+    
+    .btn-apagar{
+        width: 27%;
+        height: 40px;
+        font-size: 18px;
+    }
 }
 
 
@@ -202,8 +345,8 @@ body{
 
     .login{
         margin-top: 80px;
-        padding-left: 480px;
-        padding-right: 480px;
+        padding-left: 440px;
+        padding-right: 440px;
     }
 
     .login .title{
@@ -243,6 +386,23 @@ body{
         margin-top: 8px;
         margin-bottom: 8px;
     }
+
+    .buttons{
+        margin-top: 15px;
+        margin-bottom: 8px;
+    }
+    
+    .btn-entrar{
+        width: 22%;
+        height: 30px;
+        font-size: 18px;
+    }
+    
+    .btn-apagar{
+        width: 22%;
+        height: 30px;
+        font-size: 18px;
+    }
     
 }
 
@@ -255,8 +415,8 @@ body{
     }
 
     .login{
-        margin-top: 140px;
-        padding-left: 600px;
-        padding-right: 600px;
+        margin-top: 180px;
+        padding-left: 480px;
+        padding-right: 480px;
     }
 }
