@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-WkBussinesApplication<WK-Bussines>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.klinkowski.WK.Bussines.WkBussinesApplication",
+            "projectName": "WK-Bussines",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
