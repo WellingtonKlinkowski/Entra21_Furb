@@ -1,0 +1,363 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    --cor-site: #6314A8;
+    background-color: var(--cor-site);
+    display: flex;
+    justify-content: center;
+    color: var(--cor-site);
+    font-family: sans-serif;
+    height: max-content;
+}
+
+.logo{
+    width: 90%;
+    height: max-content;
+    background-color: aliceblue;
+    padding: 7px;
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+    margin-top: 1%;
+}
+
+.container{
+    width: 60%;
+    height: max-content;
+    background-color: aliceblue;
+    grid-template-columns: 2;
+    grid-template-rows: 5;
+    display: grid;
+    padding: 2px;
+    margin: 2px;
+    position: absolute;
+    margin-top: 220px;
+    border-radius: 20px;
+}
+
+.informacoes{
+    display: grid;
+    grid-template-columns: 2;
+    grid-template-rows: 7;
+    color: var(--cor-site);
+}
+
+.informacoes button, input::placeholder{
+    color: var(--cor-site);
+}
+
+.title{
+    grid-column: 1;
+    grid-row: 1;
+    font-size: 60px;
+    font-weight: 800;
+    position: relative;
+    top: 8vh;
+    left: 7vh;
+}
+
+.logar{
+    grid-column: 1;
+    grid-row: 2;
+    font-weight: 700;
+    font-size: 14px;
+    position: relative;
+    top: 1vh;
+    left: 10vh;
+}
+
+.logar a{
+    text-decoration: none;
+    color: rgb(83, 139, 241);
+    pointer-events: stroke;
+}
+
+
+.termos{
+    grid-column: 1;
+    grid-row: 4;
+    font-size: 11px;
+    width: 40%;
+    height: max-content;
+    top: 4vh;
+    position: relative;
+    left: 4vh;
+}
+
+.termos a{
+    text-decoration: none;
+    color: rgb(83, 139, 241);
+}
+
+.imgMulher{
+    grid-column: 2;
+    grid-row-start: 1;
+    grid-row-end: 5;
+    background: linear-gradient(#6314A8, aliceblue);
+    padding-left: 8vh;
+    padding-right: 8vh;
+    position: relative;
+    left: 7vh;
+    margin: 3px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.nome{
+    grid-column: 1;
+    grid-row: 1;
+    padding: 2px;
+    margin: 2px;
+    font-size: 18px;
+    font-weight: 700;
+    position: relative;
+    left: 6vh;
+    top: 1.5vh;
+}
+
+.inpNome{
+    width: 87%;
+    height: 4.5vh;
+    grid-column: 1;
+    grid-row: 2;
+    padding: 2px;
+    margin: 2px;
+    border-radius: 5px;
+    border: var(--cor-site) solid 1px;
+    background-color: aliceblue;
+    position: relative;
+    left: 4vh;
+}
+
+.inpNome:hover{
+    -moz-transform: scale(0.5);
+	-webkit-transform: scale(0.5);
+	transform: scale(1.03);
+    transition-duration: 0.5s;
+    color: #6314A8;
+    
+}
+
+.inpNome:focus{
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
+
+.sobrenome{
+    grid-column: 2;
+    grid-row: 1;
+    padding: 2px;
+    margin: 2px;
+    font-size: 18px;
+    font-weight: 700;
+    position: relative;
+    left: 6vh;
+    top: 1.5vh;
+}
+
+.inpSobrenome{
+    grid-column: 2;
+    grid-row: 2;
+    padding: 2px;
+    margin: 2px;
+    width: 87%;
+    height: 4.5vh;
+    border-radius: 5px;
+    border: var(--cor-site) solid 1px;
+    background-color: aliceblue;
+    position: relative;
+    left: 4vh;
+}
+
+.inpSobrenome:hover{
+    -moz-transform: scale(0.5);
+	-webkit-transform: scale(0.5);
+	transform: scale(1.03);
+    transition-duration: 0.5s;
+}
+
+.inpSobrenome:focus{
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
+
+.celular{
+    grid-column: 1;
+    grid-row: 3;
+    padding: 2px;
+    margin: 2px;
+    font-size: 18px;
+    font-weight: 700;
+    position: relative;
+    left: 6vh;
+    top: 1.5vh;
+}
+
+.inpCelular{
+    grid-column: 1;
+    grid-row: 4;
+    padding: 2px;
+    margin: 2px;
+    width: 87%;
+    height: 4.5vh;
+    border-radius: 5px;
+    border: var(--cor-site) solid 1px;
+    background-color: aliceblue;
+    position: relative;
+    left: 4vh;
+}
+
+.inpCelular:hover{
+    -moz-transform: scale(0.5);
+	-webkit-transform: scale(0.5);
+	transform: scale(1.03);
+    transition-duration: 0.5s;
+}
+
+.inpCelular:focus{
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
+
+.email{
+    grid-column: 2;
+    grid-row: 3;
+    padding: 2px;
+    margin: 2px;
+    font-size: 18px;
+    font-weight: 700;
+    position: relative;
+    left: 6vh;
+    top: 1.5vh;
+}
+
+.inpEmail{
+    grid-column: 2;
+    grid-row: 4;
+    padding: 2px;
+    margin: 2px;
+    width: 87%;
+    height: 4.5vh;
+    border-radius: 5px;
+    border: var(--cor-site) solid 1px;
+    background-color: aliceblue;
+    position: relative;
+    left: 4vh;
+}
+
+.inpEmail:hover{
+    -moz-transform: scale(0.5);
+	-webkit-transform: scale(0.5);
+	transform: scale(1.03);
+    transition-duration: 0.5s;
+}
+
+.inpEmail:focus{
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
+
+.senha{
+    grid-column: 1;
+    grid-row: 5;
+    padding: 2px;
+    margin: 2px;
+    font-size: 18px;
+    font-weight: 700;
+    position: relative;
+    left: 6vh;
+    top: 1.5vh;
+}
+
+.inpSenha{
+    grid-column: 1;
+    grid-row: 6;
+    padding: 2px;
+    margin: 2px;
+    width: 87%;
+    height: 4.5vh;
+    border-radius: 5px;
+    border: var(--cor-site) solid 1px;
+    background-color: aliceblue;
+    position: relative;
+    left: 4vh;
+}
+
+.inpSenha:hover{
+    -moz-transform: scale(0.5);
+	-webkit-transform: scale(0.5);
+	transform: scale(1.03);
+    transition-duration: 0.5s;
+}
+
+.inpSenha:focus{
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
+
+.confSenha{
+    grid-column: 2;
+    grid-row: 5;
+    padding: 2px;
+    margin: 2px;
+    font-size: 18px;
+    font-weight: 700;
+    position: relative;
+    left: 6vh;
+    top: 1.5vh;
+}
+
+.inpConfSenha{
+    grid-column: 2;
+    grid-row: 6;
+    padding: 2px;
+    margin: 2px;
+    width: 87%;
+    height: 4.5vh;
+    border-radius: 5px;
+    border: var(--cor-site) solid 1px;
+    background-color: aliceblue;
+    position: relative;
+    left: 4vh;
+}
+
+.inpConfSenha:hover{
+    -moz-transform: scale(0.5);
+	-webkit-transform: scale(0.5);
+	transform: scale(1.03);
+    transition-duration: 0.5s;
+}
+
+.inpConfSenha:focus{
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
+
+.informacoes .conta{
+    grid-column: 1;
+    grid-row: 7;
+    padding: 2px;
+    margin: 2px;
+    width: 67%;
+    height: 4.5vh;
+    border-radius: 5px;
+    border: var(--cor-site) solid 1px;
+    background-color: var(--cor-site);
+    color: aliceblue;
+    font-size: 18px;
+    font-weight: 600;
+    position: relative;
+    left: 4vh;
+}
+
+.informacoes button:hover{
+    cursor: grab;
+    -moz-transform: scale(0.5);
+	-webkit-transform: scale(0.5);
+	transform: scale(1.03);
+    transition-duration: 0.5s;
+}
