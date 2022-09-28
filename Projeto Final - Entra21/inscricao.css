@@ -26,7 +26,7 @@ body{
 }
 
 .container{
-    width: 60%;
+    width: 50%;
     height: max-content;
     background-color: aliceblue;
     grid-template-columns: 2;
@@ -57,7 +57,7 @@ body{
     font-weight: 800;
     position: relative;
     top: 8vh;
-    left: 7vh;
+    left: 5vh;
 }
 
 .logar{
@@ -98,10 +98,10 @@ body{
     grid-row-start: 1;
     grid-row-end: 5;
     background: linear-gradient(#6314A8, aliceblue);
-    padding-left: 8vh;
-    padding-right: 8vh;
+    padding-left: 2vh;
+    padding-right: 1.5vh;
     position: relative;
-    left: 7vh;
+    left: 3vh;
     margin: 3px;
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
@@ -360,4 +360,23 @@ body{
 	-webkit-transform: scale(0.5);
 	transform: scale(1.03);
     transition-duration: 0.5s;
+}
+
+@media screen and (max-width: 1600px){
+
+    body{
+        height: 1000px;
+    }
+
+    .title{
+        font-size: 46px;
+        top: 7vh;
+    }
+
+    .imgMulher{
+        width: 300px;
+        height: 534px;
+        left: 1.5vh;
+        padding-top: 4vh;
+    }
 }
