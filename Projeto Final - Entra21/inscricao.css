@@ -365,7 +365,7 @@ body{
 @media screen and (max-width: 1600px){
 
     body{
-        height: 1000px;
+        height: 850px;
     }
 
     .title{
@@ -376,7 +376,31 @@ body{
     .imgMulher{
         width: 300px;
         height: 534px;
-        left: 1.5vh;
-        padding-top: 4vh;
+        left: 1vh;
+        padding-top: 8vh;
+    }
+
+    .inpNome{
+        left: 3vh;
+    }
+
+    .inpSobrenome{
+        left: 3vh;
+    }
+
+    .inpCelular{
+        left: 3vh;
+    }
+
+    .inpSenha{
+        left: 3vh;
+    }
+
+    .inpConfSenha{
+        left: 3vh;
+    }
+
+    .inpEmail{
+        left: 3vh;
     }
 }
