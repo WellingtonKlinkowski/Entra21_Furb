@@ -1,10 +1,15 @@
 package com.klinkowski.WK.Bussines.domain;
+
+import java.util.ArrayList;
 import java.io.Serializable;
+import java.util.Arrays;
+import java.util.List;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.OneToMany;
 import javax.validation.constraints.NotEmpty;
 
 import org.hibernate.validator.constraints.Length;
@@ -19,6 +24,9 @@ public class Departamento implements Serializable{
     @NotEmpty(message = "Não pode ser 'null'")
     @Length(min=3, max=250, message="Campo NM_DPTO deve ter entra 3 á 255 caracteres!")
     private String nm_depto;
+
+    @OneToMany(mappedBy = "departamento")
+    private List<Funcionario> funcionario = new ArrayList<>();
 
     public Departamento(){
 
