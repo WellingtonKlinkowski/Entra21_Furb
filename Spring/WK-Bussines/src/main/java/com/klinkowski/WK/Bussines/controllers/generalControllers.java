@@ -28,4 +28,6 @@ public class generalControllers {
     public String comParametro(@PathVariable Integer parametro){
         return "Você passou " + (parametro.toString() + 11111)+ " com parâmetro";
     }
+
+    
 }
