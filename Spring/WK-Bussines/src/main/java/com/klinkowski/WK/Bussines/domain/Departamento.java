@@ -2,7 +2,6 @@ package com.klinkowski.WK.Bussines.domain;
 
 import java.util.ArrayList;
 import java.io.Serializable;
-import java.util.Arrays;
 import java.util.List;
 
 import javax.persistence.Entity;
