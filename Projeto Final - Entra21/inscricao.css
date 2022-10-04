@@ -370,37 +370,668 @@ body{
 
     .title{
         font-size: 46px;
-        top: 7vh;
+        top: 4.5vh;
     }
 
     .imgMulher{
         width: 300px;
         height: 534px;
-        left: 1vh;
+        left: 1.6vh;
         padding-top: 8vh;
     }
 
     .inpNome{
         left: 3vh;
+        margin-top: 1vh;
     }
 
     .inpSobrenome{
         left: 3vh;
+        margin-top: 1vh;
     }
 
     .inpCelular{
         left: 3vh;
+        margin-top: 1vh;
     }
 
     .inpSenha{
         left: 3vh;
+        margin-top: 1vh;
     }
 
     .inpConfSenha{
         left: 3vh;
+        margin-top: 1vh;
     }
 
     .inpEmail{
         left: 3vh;
+        margin-top: 1vh;
     }
+
+    .termos{
+        margin-bottom: 1.5vh;
+        width: 60%;
+    }
+
+    .informacoes .conta{
+        margin-top: 2vh;
+    }
+}
+
+@media screen and (max-width: 1366px){
+
+    body{
+        height: 700px;
+    }
+
+    .imgMulher{
+        width: 270px;
+        height: 437px;
+        left: 0.0vh;
+        padding-top: 4vh;
+    }
+
+    .title{
+        font-size: 40px;
+        font-weight: 700;
+        left: 6.5vh;
+        top: 2vh;
+    }
+
+    .logar{
+        font-size: 14px;
+        margin-bottom: 2vh;
+    }
+
+    .termos{
+        margin-bottom: 5.0vh;
+        width: 70%;
+    }
+
+    .nome{
+        left: 3vh;
+    }
+
+    .inpNome{
+        left: 2vh;
+        margin-top: 1vh;
+        height: 4.5vh;
+    }
+
+    .sobrenome{
+        left: 3vh;
+    }
+
+    .inpSobrenome{
+        left: 2vh;
+        margin-top: 1vh;
+        height: 4.5vh;
+    }
+
+    .celular{
+        left: 3vh;
+    }
+
+    .inpCelular{
+        left: 2vh;
+        margin-top: 1vh;
+        height: 4.5vh;
+    }
+
+    .senha{
+        left: 3vh;
+    }
+
+    .inpSenha{
+        left: 2vh;
+        margin-top: 1vh;
+        height: 4.5vh;
+    }
+
+    .confSenha{
+        left: 3vh;
+    }
+
+    .inpConfSenha{
+        left: 2vh;
+        margin-top: 1vh;
+        height: 4.5vh;
+    }
+
+    .email{
+        left: 3vh;
+    }
+
+    .inpEmail{
+        left: 2vh;
+        margin-top: 1vh;
+        height: 4.5vh;
+    }
+
+    .informacoes .conta{
+        margin-top: 2vh;
+        height: 5.5vh;
+    }
+
+}
+
+@media screen and (max-width: 1280px){
+    
+    .title{
+        text-align: center;
+        left: 0vh;
+        font-size: 42px;
+        font-weight: 800;
+        top: 2vh;
+    }
+
+    .logar{
+        text-align: center;
+        left: 0vh;
+    }
+
+    .imgMulher{
+        display: none;
+    }
+
+    .container{
+        justify-content: center;
+        align-items: center;
+        justify-items: center;
+        width: 40%;
+        top: 5vh;
+        height: 60vh;
+    }
+
+    .termos{
+        margin-bottom: 5.0vh;
+        width: 80%;
+        text-align: center;
+        left: 1.2vh;
+    }
+
+    .informacoes .conta{
+        left: 18.5vh;
+        height: 4.5vh;
+        top: 2vh;
+    }
+
+    .nome{
+        left: 0vh;
+        margin-bottom: 1.0vh;
+    }
+
+    .inpNome{
+        height: 4.2vh;
+        width: 28vh;
+        left: 0vh;
+    }
+
+    .sobrenome{
+        right: 0vh;
+        margin-bottom: 1.0vh;
+    }
+
+    .inpSobrenome{
+        height: 4.2vh;
+        width: 28vh;
+        right: 0vh;
+    }
+
+    .celular{
+        left: 0vh;
+        margin-bottom: 1.0vh;
+    }
+
+    .inpCelular{
+        height: 4.2vh;
+        width: 28vh;
+        left: 0vh;
+    }
+
+    .senha{
+        left: 0vh;
+        margin-bottom: 1.0vh;
+    }
+
+    .inpSenha{
+        height: 4.2vh;
+        width: 28vh;
+        left: 0vh;
+    }
+
+    .confSenha{
+        right: 0vh;
+        margin-bottom: 1.0vh;
+    }
+
+    .inpConfSenha{
+        height: 4.2vh;
+        width: 28vh;
+        right: 0vh;
+    }
+
+    .email{
+        right: 0vh;
+        margin-bottom: 1.0vh;
+    }
+
+    .inpEmail{
+        height: 4.2vh;
+        width: 28vh;
+        right: 0vh;
+    }
+
+}
+
+
+/*Ipad Pro*/
+@media screen and (max-width: 1024px) and (max-height: 1366px) {
+
+    body{
+        height: max-content;
+    }
+
+    .container{
+        justify-content: center;
+        text-align: left;
+        width: 70%;
+        height: max-content;
+    }
+
+    .title{
+        text-align: center;
+        left: 0vh;
+        font-size: 52px;
+        font-weight: 800;
+        top: 0vh;
+        margin: 0vh;
+    }
+
+    .logar{
+        text-align: center;
+        left: 0vh;
+        top: 0vh;
+        font-size: 18px;
+        margin: 0vh;
+    }
+
+    .imgMulher{
+        display: none;
+    }
+
+    .termos{
+        width: 70%;
+        top: 1vh;
+        text-align: center;
+        font-size: 16px;
+        top: 4vh;
+    }
+
+    .informacoes{
+        width: 100%;
+        justify-items: center;
+        text-align: center;
+    }
+
+    .informacoes .conta{
+        left: 50%;
+        margin: 0px;
+    }
+
+    .nome{
+        font-size: 20px;
+        left: 0vh;
+    }
+
+    .inpNome{
+        width: 85%;
+        left: 0vh;
+    }
+
+    .celular{
+        font-size: 20px;
+        left: 0vh;
+    }
+
+    .inpCelular{
+        width: 85%;
+        left: 0vh;
+    }
+
+    .senha{
+        font-size: 20px;
+        left: 0vh;
+    }
+
+    .inpSenha{
+        left: 0vh;
+        width: 85%;
+    }
+
+    .sobrenome{
+        font-size: 20px;
+        left: 0vh;
+    }
+
+    .inpSobrenome{
+        left: 0vh;
+        width: 85%;
+    }
+
+    .confSenha{
+        font-size: 20px;
+        left: 0vh;
+    }
+
+    .inpConfSenha{
+        left: 0vh;
+        width: 85%;;
+    }
+
+    .email{
+        font-size: 20px;
+        left: 0vh;
+    }
+
+    .inpEmail{
+        left: 0vh;
+        width: 85%;
+    }
+}
+
+/*Ipad*/
+@media screen and (max-width: 768px) and (max-height: 1024px){
+    .title{
+        font-size: 48px;
+    }
+
+    .informacoes input{
+        height: 5vh;
+    }
+
+    .termos{
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 300px) and (max-width: 700px){
+    body{
+        height: 180vh;
+    }
+
+    .logo img{
+        width: 250px;
+        height: 108px;
+    }
+
+    .container{
+        justify-content: center;
+        text-align: left;
+        width: 90%;
+        margin-bottom: 10vh;
+    }
+
+    .title{
+        text-align: center;
+        left: 0vh;
+        font-size: 36px;
+        font-weight: 800;
+        top: 0vh;
+        margin: 1vh;
+    }
+
+    .logar{
+        text-align: center;
+        left: 0vh;
+        top: 0vh;
+        font-size: 14px;
+        margin: 1vh;
+    }
+
+    .imgMulher{
+        display: none;
+    }
+
+
+    .informacoes{
+        width: 100%;
+        justify-items: center;
+        text-align: center;
+        display: grid;
+        grid-template-columns: 1;
+        grid-template-rows: 13;
+    }
+
+    .informacoes input{
+        height: 7vh;
+        margin-bottom: 2vh;
+    }
+
+    .nome{
+        grid-column: 1;
+        grid-row: 1;
+        font-size: 22px;
+    }
+
+    .inpNome{
+        grid-column: 1;
+        grid-row: 2;
+    }
+
+    .sobrenome{
+        grid-column: 1;
+        grid-row: 3;
+        font-size: 22px;
+    }
+
+    .inpSobrenome{
+        grid-column: 1;
+        grid-row: 4;
+    }
+
+    .celular{
+        grid-column: 1;
+        grid-row: 5;
+        font-size: 22px;
+    }
+
+    .inpCelular{
+        grid-column: 1;
+        grid-row: 6;
+    }
+
+    .email{
+        grid-column: 1;
+        grid-row: 7;
+        font-size: 22px;
+    }
+
+    .inpEmail{
+        grid-column: 1;
+        grid-row: 8;
+    }
+
+    .senha{
+        grid-column: 1;
+        grid-row: 9;
+        font-size: 22px;
+    }
+
+    .inpSenha{
+        grid-column: 1;
+        grid-row: 10;
+    }
+
+    .confSenha{
+        grid-column: 1;
+        grid-row: 11;
+        font-size: 22px;
+    }
+
+    .inpConfSenha{
+        grid-column: 1;
+        grid-row: 12;
+    }
+
+    .informacoes .conta{
+        grid-column: 1;
+        grid-row: 13;
+        font-size: 22px;
+        left: 0vh;
+        height: 7vh;
+        margin-bottom: 2vh;
+    }
+
+    .termos{
+        width: 90%;
+        text-align: center;
+        font-size: 12px;
+        left: 0vh;
+        top: 4vh;
+        margin-bottom: 7vh;
+    }
+    
+}
+
+@media (min-width: 200px) and (max-width: 299px){
+    body{
+        height: 180vh;
+    }
+
+    .logo img{
+        width: 150px;
+        height: 65px;
+    }
+
+    .container{
+        justify-content: center;
+        text-align: left;
+        width: 95%;
+        top: 0vh;
+
+    }
+
+    .title{
+        text-align: center;
+        left: 0vh;
+        font-size: 34px;
+        font-weight: 800;
+        top: 1vh;
+        margin: 0vh;
+    }
+
+    .logar{
+        text-align: center;
+        left: 0vh;
+        top: 0vh;
+        font-size: 14px;
+        margin: 1vh;
+    }
+
+    .imgMulher{
+        display: none;
+    }
+
+
+    .informacoes{
+        width: 100%;
+        justify-items: center;
+        text-align: center;
+        display: grid;
+        grid-template-columns: 1;
+        grid-template-rows: 13;
+    }
+
+    .informacoes input{
+        height: 7vh;
+        margin-bottom: 2vh;
+    }
+
+    .nome{
+        grid-column: 1;
+        grid-row: 1;
+        font-size: 22px;
+    }
+
+    .inpNome{
+        grid-column: 1;
+        grid-row: 2;
+    }
+
+    .sobrenome{
+        grid-column: 1;
+        grid-row: 3;
+        font-size: 22px;
+    }
+
+    .inpSobrenome{
+        grid-column: 1;
+        grid-row: 4;
+    }
+
+    .celular{
+        grid-column: 1;
+        grid-row: 5;
+        font-size: 22px;
+    }
+
+    .inpCelular{
+        grid-column: 1;
+        grid-row: 6;
+    }
+
+    .email{
+        grid-column: 1;
+        grid-row: 7;
+        font-size: 22px;
+    }
+
+    .inpEmail{
+        grid-column: 1;
+        grid-row: 8;
+    }
+
+    .senha{
+        grid-column: 1;
+        grid-row: 9;
+        font-size: 22px;
+    }
+
+    .inpSenha{
+        grid-column: 1;
+        grid-row: 10;
+    }
+
+    .confSenha{
+        grid-column: 1;
+        grid-row: 11;
+        font-size: 22px;
+    }
+
+    .inpConfSenha{
+        grid-column: 1;
+        grid-row: 12;
+    }
+
+    .informacoes .conta{
+        grid-column: 1;
+        grid-row: 13;
+        font-size: 22px;
+        left: 0vh;
+        height: 7vh;
+        margin-bottom: 2vh;
+    }
+
+    .termos{
+        width: 90%;
+        text-align: center;
+        font-size: 12px;
+        left: 0vh;
+        top: 4vh;
+        margin-bottom: 7vh;
+    }
+    
 }
