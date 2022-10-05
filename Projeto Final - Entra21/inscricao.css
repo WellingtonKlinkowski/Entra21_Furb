@@ -376,7 +376,7 @@ body{
     .imgMulher{
         width: 300px;
         height: 534px;
-        left: 1.6vh;
+        left: 1.0vh;
         padding-top: 8vh;
     }
 
@@ -517,7 +517,7 @@ body{
 
 }
 
-@media screen and (max-width: 1280px){
+@media screen and (max-width: 1280px) and (min-height: 720px) and (max-height: 1024px){
     
     .title{
         text-align: center;

@@ -10,6 +10,7 @@ body{
     background-color: var(--cor-site);
     font-family: sans-serif;
     width: 100%;
+    height: max-content;
 }
 
 .logo{
@@ -239,4 +240,241 @@ body{
     font-weight: 700;
 }
 
+
+@media screen and (min-width: 1025px) and (max-width: 1360px){
+    
+    .imgMulher{
+        width: 200px;
+        height: 367px;
+    }
+
+    .buttons .btn-apagar{
+        font-size: 14px;
+    }
+
+    .buttons .btn-entrar{
+        font-size: 14px;
+    }
+
+}
+
+@media screen and (min-width: 712px) and (max-width: 1024px){
+
+    .mulher{
+        display: none;
+    }
+
+    .containerLogin{
+        grid-template-columns: 1;
+        grid-template-rows: 6;
+        width: 50%;
+        position: relative;
+        height: 40vh;
+        left: 25%;
+        right: 25%;
+    }
+
+    .title{
+        grid-column: 1;
+        grid-row: 1;
+        font-size: 42px;
+    }
+
+    .usuario{
+        grid-column: 1;
+        grid-row: 2;
+        width: 85%;
+        margin: 0px;
+        left: 7.5%;
+        right: 7.5%;
+    }
+
+    .senha{
+        grid-column: 1;
+        grid-row: 3;
+        width: 85%;
+        margin: 0px;
+        left: 7.5%;
+        right: 7.5%;
+    }
+
+    .buttons{
+        grid-column: 1;
+        grid-row: 4;
+        margin-top: 1vh;
+    }
+
+    .inscrever{
+        grid-column: 1;
+        grid-row: 5;
+        font-size: 16px;
+        margin: 0.3vh;
+    }
+
+    .esqueceu{
+        grid-column: 1;
+        grid-row: 6;
+        font-size: 16px;
+        margin: 0.3vh;
+    }
+
+
+}
+
+@media screen and (min-width: 340px) and (max-width: 711px){
+
+    .mulher{
+        display: none;
+    }
+
+    .containerLogin{
+        grid-template-columns: 1;
+        grid-template-rows: 6;
+        width:100%;
+        position: relative;
+        height: 75vh;
+        left: 0vh;
+        bottom: 5vh;
+    }
+
+    .title{
+        grid-column: 1;
+        grid-row: 1;
+        font-size: 48px;
+    }
+
+    .usuario{
+        grid-column: 1;
+        grid-row: 2;
+        height: 7vh;
+    }
+
+    .usuario::placeholder{
+        font-size: 22px;
+    }
+
+    .senha{
+        grid-column: 1;
+        grid-row: 3;
+        height: 7vh;
+    }
+
+    .senha::placeholder{
+        font-size: 22px;
+    }
+
+    .buttons{
+        grid-column: 1;
+        grid-row: 4;
+        width: 80%;
+    }
+
+    .buttons .btn-entrar{
+        width: 70%;
+        height: 5vh;
+        font-size: 22px;
+    }
+
+    .buttons .btn-apagar{
+        width: 70%;
+        height: 5vh;
+        font-size: 22px;
+    }
+
+    .inscrever{
+        grid-column: 1;
+        grid-row: 5;
+        font-size: 19px;
+    }
+
+    .esqueceu{
+        grid-column: 1;
+        grid-row: 6;
+        font-size: 19px;
+    }
+
+}
+
+@media screen and (min-width: 280px) and (max-width: 339px){
+
+    .mulher{
+        display: none;
+    }
+
+    .containerLogin{
+        width: 100%;
+        left: 0vh;
+        height: 75vh;
+        border-radius: 0vh;
+    }
+
+    .title{
+        grid-column: 1;
+        grid-row: 1;
+        font-size: 42px;
+    }
+
+    .usuario{
+        grid-column: 1;
+        grid-row: 2;
+        height: 7vh;
+        width: 95%;
+        left: 2.5%;
+        right: 2.5%;
+        margin: 0px;
+    }
+
+    .usuario::placeholder{
+        font-size: 20px;
+    }
+
+    .senha{
+        grid-column: 1;
+        grid-row: 3;
+        height: 7vh;
+        width: 95%;
+        left: 2.5%;
+        right: 2.5%;
+        margin: 0px;
+    }
+
+    .senha::placeholder{
+        font-size: 20px;
+    }
+
+    .buttons{
+        grid-column: 1;
+        grid-row: 4;
+        width: 80%;
+    }
+
+    .buttons .btn-entrar{
+        width: 70%;
+        height: 5vh;
+        font-size: 18px;
+    }
+
+    .buttons .btn-apagar{
+        width: 70%;
+        height: 5vh;
+        font-size: 18px;
+    }
+
+    .inscrever{
+        grid-column: 1;
+        grid-row: 5;
+        font-size: 16px;
+        top: 2vh;
+        font-weight: 500;
+        margin-bottom: 2vh;
+    }
+
+    .esqueceu{
+        grid-column: 1;
+        grid-row: 6;
+        font-size: 16px;
+        font-weight: 500;
+    }
+
+}
 
