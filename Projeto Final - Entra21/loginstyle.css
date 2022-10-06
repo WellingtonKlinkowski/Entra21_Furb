@@ -335,6 +335,7 @@ body{
         height: 75vh;
         left: 0vh;
         bottom: 5vh;
+        border-radius: 0vh;
     }
 
     .title{
