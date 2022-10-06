@@ -1,113 +1,29 @@
-
-
 *{
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
 }
 
+
 body{
     --cor-site: #6314A8;
     background-color: var(--cor-site);
-}
-
-ul a{
-    color: var(--cor-site);
-    text-decoration: none;
     font-family: sans-serif;
-}
-
-ul li{
-    list-style: none;
-    width: 25%;
-    display: flex;
-    text-align: center;
-    justify-content: center;
-}
-
-header{
     width: 100%;
     height: max-content;
-    display: grid;
-    grid-template-columns: 4fr;
-    grid-template-rows: 2;
-    position: fixed;
+}
+
+.header{
+    width: 100%;
     background-color: aliceblue;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    padding-bottom: 10px;
-}
-
-#logo{
-    grid-column: 4fr;
-    grid-row: 1;
-    margin-top: 10px;
-}
-
-ul a:hover{
-    color: aliceblue;
-    padding: 2px 4px;
-    font-weight: 500;
-}
-
-
-#rastrear:hover{
-    background: var(--cor-site);
-    border-radius: 10px;
-    transition: 0.5s;
-    border-bottom: rgb(157, 142, 253) solid;
-    color: aliceblue;
-}
-
-#rastrear{
-    grid-column: 1fr;
-    grid-row: 2;
-}
-
-#entregador:hover{
-    color: aliceblue;
-    background-color: var(--cor-site);
-    border-radius: 10px;
-    transition: 0.5s;
-    border-bottom: rgb(157, 142, 253) solid;
-}
-
-#entregadorr{
-    grid-column: 2fr;
-    grid-row: 2;
-}
-
-#empresa:hover{
-    color: aliceblue;
-    background-color: var(--cor-site);
-    border-radius: 10px;
-    transition: 0.5s;
-    border-bottom: rgb(157, 142, 253) solid;
-}
-
-#empresa{
-    grid-column: 3fr;
-    grid-row: 2;
-}
-
-#rota:hover{
-    color: aliceblue;
-    background-color: var(--cor-site);
-    border-radius: 10px;
-    transition: 0.5s;
-    border-bottom: rgb(157, 142, 253) solid;
-}
-
-#rota{
-    grid-column: 4fr;
-    grid-row: 2;
-}
-
-#menu{
-    width: 95%;
+    padding: 1vh;
     display: flex;
-    text-align: center;
-    margin-left: 2%;
-    margin-right: 2%;
+    justify-content: center;
+    position: relative;
+    border-radius: 0vh 0vh 8vh 8vh;
+}
+
+.header img{
+    width: 200px;
+    height: 87px;
 }
