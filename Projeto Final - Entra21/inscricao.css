@@ -5,8 +5,10 @@
 }
 
 body{
-    --cor-site: #6314A8;
-    background-color: var(--cor-site);
+    /*#63a5bf azul escurinho*/
+    /*#6314A8 roxo oficial do welzin*/
+    --cor-site: #375ca6;
+    background-color: #63a5bf;
     display: flex;
     justify-content: center;
     color: var(--cor-site);
@@ -97,7 +99,7 @@ body{
     grid-column: 2;
     grid-row-start: 1;
     grid-row-end: 5;
-    background: linear-gradient(#6314A8, aliceblue);
+    background: linear-gradient(#3c6aa6, aliceblue);
     padding-left: 2vh;
     padding-right: 1.5vh;
     position: relative;

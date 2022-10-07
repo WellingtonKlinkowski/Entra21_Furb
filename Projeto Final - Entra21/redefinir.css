@@ -6,8 +6,10 @@
 
 
 body{
-    --cor-site: #6314A8;
-    background-color: var(--cor-site);
+    --cor-site: #375ca6;
+    background-image: linear-gradient(to bottom, #49a9f2cb,  #FFABFC);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     font-family: sans-serif;
     width: 100%;
     height: max-content;
@@ -15,12 +17,14 @@ body{
 
 .header{
     width: 100%;
-    background-color: aliceblue;
+    background-image : linear-gradient(to left, #8464c4,  #b091ee, #f6dff5, #b091ee, #8464c4);
     padding: 1vh;
     display: flex;
     justify-content: center;
     position: relative;
-    border-radius: 0vh 0vh 8vh 8vh;
+    border-radius: 0vh 0vh 14vh 14vh;
+
+    border: 0.1vh solid black;
 }
 
 .header img{
@@ -42,6 +46,9 @@ body{
     border-radius: 1vh;
     text-align: center;
     color: var(--cor-site);
+    box-shadow: 8px 8px 2px #375ca6a2;
+    border: 0.1vh solid black;
+    
 }
 
 .title{
@@ -74,21 +81,22 @@ body{
     position: relative;
     top: 2vh;
     border: none;
-    background-color: var(--cor-site);
+    background-color: #f3f3f3fb;
     font-size: 20px;
     border-radius: 1.5vh;
+    border: 0.2vh solid var(--cor-site);
 }
 
 .input:hover{
-    -moz-transform: scale(0.5);
-	-webkit-transform: scale(0.5);
-	transform: scale(1.03);
-    transition-duration: 0.5s;
-    background-color: #812bd6;
+    -moz-transform: scale(0.3);
+	-webkit-transform: scale(0.3);
+	transform: scale(1.08);
+    transition-duration: 0.8s;
+    border: 0.2vh solid var(--cor-site);
 }
 
 .input::placeholder{
-    color: aliceblue;
+    color: #375ca6;
     font-size: larger;
     font-weight: 700;
     text-align: center;
