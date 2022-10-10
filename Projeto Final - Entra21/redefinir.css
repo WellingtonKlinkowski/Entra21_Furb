@@ -23,13 +23,12 @@ body{
     justify-content: center;
     position: relative;
     border-radius: 0vh 0vh 14vh 14vh;
-
     border: 0.1vh solid black;
 }
 
 .header img{
-    width: 200px;
-    height: 87px;
+    width: 240px;
+    height: 99px;
 }
 
 .container{
