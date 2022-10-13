@@ -6,8 +6,8 @@
 
 
 body{
-    --cor-site: #375ca6;
-    background-image: linear-gradient(to bottom, #49a9f2cb,  #FFABFC);
+    --cor-site: #ffffff;
+    background-color: #848cc0;
     background-repeat: no-repeat;
     background-attachment: fixed;
     font-family: sans-serif;
@@ -17,25 +17,24 @@ body{
 
 .header{
     width: 100%;
-    background-image : linear-gradient(to left, #8464c4,  #b091ee, #f6dff5, #b091ee, #8464c4);
+    background-color: #fff;
     padding: 1vh;
     display: flex;
     justify-content: center;
     position: relative;
     border-radius: 0vh 0vh 14vh 14vh;
-
-    border: 0.1vh solid black;
+   /* border: 0.1vh solid black;*/
 }
 
-.header img{
+/*.header img{
     width: 200px;
     height: 87px;
 }
-
+*/
 .container{
     width: 30%;
     height: 40vh;
-    background-color: aliceblue;
+    background-color : #fff;
     display: grid;
     grid-template-columns: 1;
     grid-template-rows: 4;
@@ -45,19 +44,19 @@ body{
     padding: 1vh;
     border-radius: 1vh;
     text-align: center;
-    color: var(--cor-site);
-    box-shadow: 8px 8px 2px #375ca6a2;
-    border: 0.1vh solid black;
+    color: #525a8e;
+    box-shadow: 8px 8px 2px #525a8e;
+    border: 0.1vh solid #fff;
     
 }
 
-.title{
+.container .title{
     grid-column: 1;
     grid-row: 1;
     position: relative;
     top: 4vh;
-    font-size: 32px;
-    font-weight: 800;
+    font-size: 38px;
+    font-weight: 700;
 
 }
 
@@ -66,7 +65,7 @@ body{
     grid-row: 2;
     margin-left: 6vh;
     margin-right: 6vh;
-    font-size: 17px;
+    font-size: 20px;
     position: relative;
     top: 2vh;
 }
@@ -81,10 +80,10 @@ body{
     position: relative;
     top: 2vh;
     border: none;
-    background-color: #f3f3f3fb;
+    background-image: linear-gradient(to right, rgba(157, 107, 184, 0.7), rgba(106, 116, 184, 0.7), rgba(88, 193, 154, 0.7)); 
     font-size: 20px;
     border-radius: 1.5vh;
-    border: 0.2vh solid var(--cor-site);
+    border: 0.2vh solid #fff;
 }
 
 .input:hover{
@@ -92,11 +91,11 @@ body{
 	-webkit-transform: scale(0.3);
 	transform: scale(1.08);
     transition-duration: 0.8s;
-    border: 0.2vh solid var(--cor-site);
+    border: 0.2vh solid #fff;
 }
 
 .input::placeholder{
-    color: #375ca6;
+    color: #ffffff;
     font-size: larger;
     font-weight: 700;
     text-align: center;
@@ -117,11 +116,11 @@ body{
     position: relative;
     cursor: pointer;
     border-radius: 1vh;
-    border: 0.2vh solid var(--cor-site);
-    background-color: aliceblue;
+    border: 0.2vh solid #fff;
     font-size: 16px;
     font-weight: 700;
     color: var(--cor-site);
+    background-image: linear-gradient(to right, #9d6ab8, #6a74b8, #58c19a);
 }
 
 .btnEnviar:hover{
@@ -131,165 +130,335 @@ body{
     transition-duration: 0.5s;
 }
 
-@media screen and (min-width: 1600px) {
+@media screen and (min-width: 1600px) and (max-width: 1919px) {
     
-    .title{
+    .container .title{
         top: 3vh;
-        font-size: 29px;
-        font-weight: 800;
-    }
-
-}
-
-@media screen and (min-width: 1366px) {
-    
-    .title{
-        top: 2vh;
-        font-size: 27px;
+        font-size: 30px;
         font-weight: 700;
     }
 
+    .container .frase{
+        font-size: 19.4px;
+        font-weight: 500;
+        margin-left: 1vh;
+        margin-right: 1vh;
+    }
+
+    .container .input{
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+        height: 4.5vh;
+    }
+
 }
 
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1366px) and (max-width: 1599px) {
     
-    .title{
+    .container .title{
+        top: 3vh;
+        font-size: 26px;
+        font-weight: 700;
+    }
+
+    .container .frase{
+        font-size: 17.4px;
+        font-weight: 500;
+        margin-left: 1vh;
+        margin-right: 1vh;
+    }
+
+    .container .input{
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+        height: 4.5vh;
+    }
+
+    .container .input::placeholder{
+        font-size: 17px;
+    }
+
+
+
+}
+
+@media screen and (min-width: 1280px) and (max-width: 1365px){
+    
+    .container .title{
         top: 2vh;
+        font-size: 24px;
+        font-weight: 700;
+    }
+
+    .container .frase{
+        font-size: 17.4px;
+        font-weight: 500;
+        margin-left: 1vh;
+        margin-right: 1vh;
+    }
+
+    .container .input{
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+        height: 4.5vh;
+    }
+
+    .container .input::placeholder{
+        font-size: 17px;
+    }
+
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+    
+    .container{
+        width: 70%;
+        left: 15%;
+        right: 15%;
+        height: 35vh;
+    }
+
+    .container .title{
+        top: 3vh;
+        font-size: 46px;
+        font-weight: 600;
+    }
+
+    .container .frase{
+        font-size: 26px;
+        font-weight: 100;
+        margin: 1vh;
+        margin-left: 4vh;
+        margin-right: 4vh;
+    }
+
+    .container .input{
+        margin-bottom: 3vh;
+        width: 90%;
+        height: 5vh;
+        left: 5%;
+        right: 5%;
+        margin: 0vh;
+        margin-bottom: 3vh;
+    }
+
+    .container .input::placeholder{
         font-size: 25px;
-        font-weight: 700;
+        font-weight: 500;
     }
 
-    .input{
+    .container .btnEnviar{
+        font-size: 22px;
+        font-weight: 600;
+    }
+
+}
+
+@media screen and (min-width: 712px) and (max-width: 1023px) {
+    
+    .container{
+        width: 70%;
+        left: 15%;
+        right: 15%;
+        height: 40vh;
+    }
+
+    .container .title{
+        top: 2vh;
+        font-size: 40px;
+        font-weight: 500;
+        margin-bottom: 0vh;
+    }
+
+    .container .frase{
+        font-size: 21px;
+        font-weight: 600;
+        margin-left: 2vh;
+        margin-right: 2vh;
+    }
+
+    .container .input{
+        margin-bottom: 3vh;
+        width: 90%;
+        height: 6vh;
+        left: 5%;
+        right: 5%;
+        margin: 0vh;
+        margin-bottom: 3vh;
+    }
+
+    .container .input::placeholder{
+        font-size: 25px;
+        font-weight: 500;
+    }
+
+    .container .btnEnviar{
+        font-size: 22px;
+        font-weight: 600;
+        height: 5vh;
+    }
+
+}
+
+@media screen and (min-width: 375px) and (max-width: 711px) {
+    .header{
+        width: 100%;
+        border-radius: 0vh;
+    }
+    .container{
+        width: 95%;
+        margin: 0vh;
+        margin-left: 2.5%;
+        margin-right: 2.5%;
+        height: 40vh;
+        border-radius: 1vh;
+        left: 0vh;
+    }
+
+    .container .title{
+        top: 2vh;
+        font-size: 30px;
+        font-weight: 400;
+        margin-bottom: 0vh;
+    }
+
+    .container .frase{
+        font-size: 15.5px;
+        font-weight: 500;
+        margin-left: 1vh;
+        margin-right: 1vh;
+    }
+
+    .container .input{
+        width: 95%;
+        height: 6vh;
+        left: 2.5%;
+        right: 2.5%;
+        margin: 0vh;
         margin-bottom: 2vh;
     }
 
-    .input::placeholder{
-        font-size: 20px;
-        font-weight: 600;
+    .container .input::placeholder{
+        font-size: 22px;
+        font-weight: 500;
+    }
+
+    .container .btnEnviar{
+        font-size: 18px;
+        font-weight: 500;
+        height: 5vh;
     }
 
 }
 
-@media screen and (min-width: 768px) and (max-width: 1024px) {
-    
+@media screen and (min-width: 300px) and (max-width: 374px) {
+    .header{
+        width: 100%;
+        border-radius: 0vh;
+    }
     .container{
-        width: 50%;
-        left: 25%;
-        right: 25%;
+        width: 95%;
+        margin: 0vh;
+        margin-left: 2.5%;
+        margin-right: 2.5%;
+        height: 50vh;
+        border-radius: 1vh;
+        left: 0vh;
     }
 
-    .title{
-        top: 3vh;
-        font-size: 38px;
-        font-weight: 800;
-        margin-bottom: 1vh;
+    .container .title{
+        top: 2vh;
+        font-size: 30px;
+        font-weight: 400;
+        margin-bottom: 0vh;
     }
 
-    .frase{
-        font-size: 18px;
+    .container .frase{
+        font-size: 15.5px;
         font-weight: 500;
+        margin-left: 1vh;
+        margin-right: 1vh;
         margin: 1vh;
     }
 
-    .input{
-        margin-bottom: 3vh;
-        width: 90%;
-        left: 5%;
-        right: 5%;
-        margin: 0vh;
-        margin-bottom: 3vh;
+    .container .input{
+        width: 95%;
+        height: 7vh;
+        left: 2.5%;
+        right: 2.5%;
+        margin-bottom: 2vh;
+        margin-left: 0vh;
+        margin-right: 0vh;
     }
 
-    .input::placeholder{
-        font-size: 20px;
-        font-weight: 600;
-    }
-
-}
-
-@media screen and (min-width: 300px) and (max-width: 767px) {
-    
-    .container{
-        width: 90%;
-        left: 5%;
-        right: 5%;
-        height: max-content;
-    }
-
-    .title{
-        top: 3vh;
-        font-size: 35px;
-        font-weight: 700;
-        margin-bottom: 1vh;
-    }
-
-    .frase{
-        font-size: 17px;
+    .container .input::placeholder{
+        font-size: 22px;
         font-weight: 500;
-        margin: 2vh;
-        margin-bottom: 5vh;
     }
 
-    .input{
-        width: 90%;
-        left: 5%;
-        right: 5%;
-        margin: 0vh;
-        margin-bottom: 6vh;
-        height: 5vh;
-    }
-
-    .input::placeholder{
-        font-size: 20px;
-        font-weight: 600;
-    }
-
-    .btnEnviar{
-        margin-bottom: 5vh;
-        height: 5vh;
+    .container .btnEnviar{
+        font-size: 18px;
+        font-weight: 500;
+        height: 6vh;
+        margin-top: 2vh;
     }
 
 }
 
-@media screen and (min-width: 270px) and (max-width: 299px) {
+
+@media screen and (min-width: 250px) and (max-width: 299px) {
     
+    .header img{
+        width: 217px;
+        height: 50px;
+    }
+
+    .header{
+        width: 100%;
+        border-radius: 0vh;
+    }
+
     .container{
         width: 100%;
         height: max-content;
         left: 0vh;
         border-radius: 0vh;
+        margin: 0vh;
     }
 
-    .title{
-        top: 3vh;
-        font-size: 35px;
+    .container .title{
+        top: 2vh;
+        font-size: 27px;
         font-weight: 700;
         margin-bottom: 1vh;
     }
 
-    .frase{
-        font-size: 17px;
+    .container .frase{
+        font-size: 18px;
         font-weight: 500;
         margin: 2vh;
-        margin-bottom: 5vh;
+        margin-bottom: 3vh;
     }
 
-    .input{
+    .container .input{
         width: 95%;
         left: 2.5%;
         right: 2.5%;
         margin: 0vh;
-        margin-bottom: 6vh;
+        margin-bottom: 4vh;
         height: 7vh;
     }
 
-    .input::placeholder{
+    .container .input::placeholder{
         font-size: 20px;
         font-weight: 600;
     }
 
-    .btnEnviar{
-        margin-bottom: 5vh;
+    .container .btnEnviar{
+        margin-bottom: 4vh;
         height: 5vh;
     }
 
