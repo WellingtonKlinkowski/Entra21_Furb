@@ -7,7 +7,7 @@
 
 body{
     --cor-site: black;
-    background-color: #5a6b59;
+    background-color: #fff;
     font-family: sans-serif;
     width: 100%;
     height: max-content;
@@ -15,20 +15,20 @@ body{
 
 .logo{
     width: 100%;
-    background-color: aliceblue;
+    background-color: #dddddd;
     display: flex;
     justify-content: center;
     position: relative;
-    border-radius: 0vh 0vh 8vh 8vh;
+
 }
 
 .logo img{
-    width: 210px;
-    height: 127px;
+    width: 200px;
+    height: 121px;
 }
 
 .containerLogin{
-    background-color: #cecece;
+    background-color: #dddddd;
     width: 40%;
     height: max-content;
     border-radius: 2vh;
@@ -40,17 +40,20 @@ body{
     left: 30%;
     right: 30%;
     position: relative;
+    border: 0.1vh solid rgb(0, 0, 0);
+    box-shadow: 8px 8px 2px #515151;
 }
 
 .mulher{
     grid-column: 1;
     grid-row-start: 1;
     grid-row-end: 7;
-    background-color: var(--cor-site);
+    background-image:linear-gradient(to bottom, #dddddd,#f1f1f1, #fff);
     display: flex;
     justify-content: center;
     border-radius: 2vh 0vh 0vh 2vh;
     margin-right: 1vh;
+    border: 0.2vh solid #000
 }
 
 .imgMulher{
@@ -81,14 +84,14 @@ body{
     text-align: center;
     position: relative;
     top: 3vh;
-    background-color: var(--cor-site);
-    border: none;
+    background-color: #fff;
+    border: 0.1vh solid black;
     cursor: pointer;
     border-radius: 1.5vh;
 }
 
 .usuario::placeholder{
-    color: aliceblue;
+    color: rgb(0, 0, 0);
     font-size: larger;
     font-weight: 700;
 }
@@ -98,7 +101,7 @@ body{
 	-webkit-transform: scale(0.5);
 	transform: scale(1.03);
     transition-duration: 0.5s;
-    background-color: #812bd6;
+    background-color: #fff;
 }
 
 .usuario:focus{
@@ -115,14 +118,14 @@ body{
     text-align: center;
     position: relative;
     top: 2vh;
-    background-color: var(--cor-site);
-    border: none;
+    background-color: #fff;
+    border: 0.1vh solid black;
     cursor: pointer;
     border-radius: 1.5vh;
 }
 
 .senha::placeholder{
-    color: aliceblue;
+    color: rgb(5, 5, 5);
     font-size: larger;
     font-weight: 700;
 }
@@ -132,7 +135,7 @@ body{
 	-webkit-transform: scale(0.5);
 	transform: scale(1.03);
     transition-duration: 0.5s;
-    background-color: #812bd6;
+    background-color: #ffffff;
 }
 
 .senha:focus{
@@ -164,11 +167,11 @@ body{
     position: relative;
     cursor: pointer;
     border-radius: 1vh;
-    border: 0.2vh solid var(--cor-site);
-    background-color: aliceblue;
+    border: 0.2vh solid #fff;
+    background-color: black;
     font-size: 16px;
     font-weight: 700;
-    color: var(--cor-site);
+    color: #fff;
 }
 
 .buttons .btn-entrar:hover{
@@ -176,7 +179,7 @@ body{
 	-webkit-transform: scale(0.2);
 	transform: scale(1.02);
     transition-duration: 0.1s;
-    background-color: aliceblue;
+    background-color: rgb(0, 0, 0);
 }
 
 .buttons .btn-apagar{
@@ -190,11 +193,11 @@ body{
     position: relative;
     cursor: pointer;
     border-radius: 1vh;
-    border: 0.2vh solid var(--cor-site);
-    background-color: aliceblue;
+    border: 0.2vh solid #fff;
+    background-color: black;
     font-size: 16px;
     font-weight: 700;
-    color: var(--cor-site);
+    color: #fff;
 }
 
 .buttons .btn-apagar:hover{
@@ -202,7 +205,7 @@ body{
 	-webkit-transform: scale(0.2);
 	transform: scale(1.02);
     transition-duration: 0.1s;
-    background-color: aliceblue;
+    background-color: rgb(0, 0, 0);
 }
 
 .inscrever{
@@ -240,7 +243,18 @@ body{
 }
 
 
+@media screen and (min-width: 1600px) and (max-width: 1919px) {
+    
+    .logo img{
+        width: 180px;
+        height: 109px;
+    }
+
+}
+
+
 @media screen and (min-width: 1025px) and (max-width: 1360px){
+    
     
     .imgMulher{
         width: 200px;

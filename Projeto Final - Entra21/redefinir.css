@@ -7,7 +7,7 @@
 
 body{
     --cor-site: #ffffff;
-    background-color: #848cc0;
+    background-color: fff;
     background-repeat: no-repeat;
     background-attachment: fixed;
     font-family: sans-serif;
@@ -17,33 +17,21 @@ body{
 
 .header{
     width: 100%;
-    background-color: #fff;
-    padding: 1vh;
+    background-color: #dddddd;
     display: flex;
     justify-content: center;
     position: relative;
-    border-radius: 0vh 0vh 14vh 14vh;
-<<<<<<< HEAD
-   /* border: 0.1vh solid black;*/
-}
-
-/*.header img{
-    width: 200px;
-    height: 87px;
-=======
-    border: 0.1vh solid black;
 }
 
 .header img{
-    width: 240px;
-    height: 99px;
->>>>>>> 83a3d42ffb3eecd2f0e09caf784ec5a7275151e5
+    width: 200px;
+    height: 121px;
 }
-*/
+
 .container{
     width: 30%;
     height: 40vh;
-    background-color : #fff;
+    background-color : #dddddd;
     display: grid;
     grid-template-columns: 1;
     grid-template-rows: 4;
@@ -53,9 +41,9 @@ body{
     padding: 1vh;
     border-radius: 1vh;
     text-align: center;
-    color: #525a8e;
-    box-shadow: 8px 8px 2px #525a8e;
-    border: 0.1vh solid #fff;
+    color: #000000;
+    box-shadow: 8px 8px 2px #515151;
+    border: 0.1vh solid rgb(0, 0, 0);
     
 }
 
@@ -89,10 +77,10 @@ body{
     position: relative;
     top: 2vh;
     border: none;
-    background-image: linear-gradient(to right, rgba(157, 107, 184, 0.7), rgba(106, 116, 184, 0.7), rgba(88, 193, 154, 0.7)); 
+    background-color: #fff; 
     font-size: 20px;
     border-radius: 1.5vh;
-    border: 0.2vh solid #fff;
+    border: 0.2vh solid rgb(0, 0, 0);
 }
 
 .input:hover{
@@ -100,11 +88,11 @@ body{
 	-webkit-transform: scale(0.3);
 	transform: scale(1.08);
     transition-duration: 0.8s;
-    border: 0.2vh solid #fff;
+    border: 0.2vh solid black;
 }
 
 .input::placeholder{
-    color: #ffffff;
+    color: #000;
     font-size: larger;
     font-weight: 700;
     text-align: center;
@@ -125,11 +113,11 @@ body{
     position: relative;
     cursor: pointer;
     border-radius: 1vh;
-    border: 0.2vh solid #fff;
+    border: 0.2vh solid #000;
     font-size: 16px;
     font-weight: 700;
     color: var(--cor-site);
-    background-image: linear-gradient(to right, #9d6ab8, #6a74b8, #58c19a);
+    background-color: black;
 }
 
 .btnEnviar:hover{
@@ -141,6 +129,11 @@ body{
 
 @media screen and (min-width: 1600px) and (max-width: 1919px) {
     
+    .header img{
+        width: 180px;
+        height: 109px;
+    }
+
     .container .title{
         top: 3vh;
         font-size: 30px;

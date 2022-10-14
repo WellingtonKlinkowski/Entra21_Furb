@@ -6,24 +6,65 @@
 
 
 body{
-    --cor-site: #6314A8;
-    background-color: var(--cor-site);
+    background-color: #fff;
     font-family: sans-serif;
     width: 100%;
     height: max-content;
+    position: relative;
 }
 
 .header{
     width: 100%;
-    background-color: aliceblue;
-    padding: 1vh;
+    background-color: #dddddd;
     display: flex;
-    justify-content: center;
-    position: relative;
-    border-radius: 0vh 0vh 8vh 8vh;
+    justify-content: space-between;
+    color: black;
+    align-items: center;
+    text-align: center;
+    font-weight: 500;
+}
+
+.header ul li{
+    list-style: none;
+    font-size: 25px;
+    border-bottom: 0.25vh solid black;
+    padding: 1vh;
+    margin-left: 3vh;
+    margin-right: 3vh;
+}
+
+.header ul li a{
+    text-decoration: none;
+    color: black;
 }
 
 .header img{
     width: 200px;
-    height: 87px;
+    height: 121px;
+}
+
+.logo {
+    left: 7vh;
+    position: relative;
+}
+
+.menu{
+    display: flex;
+    width:50%;
+}
+
+.menu :hover{
+    cursor: grab;
+    -moz-transform: scale(0.5);
+	-webkit-transform: scale(0.5);
+	transform: scale(1.08);
+    transition-duration: 0.5s;
+}
+
+@media screen and (min-width: 1600px) and (max-width: 1919px){
+    .logo img{
+        width: 180px;
+        height: 109px;
+    }
+
 }
