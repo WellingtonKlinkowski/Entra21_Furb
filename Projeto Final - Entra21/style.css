@@ -17,7 +17,7 @@ body{
     width: 100%;
     background-color: #dddddd;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     color: black;
     align-items: center;
     text-align: center;
@@ -44,13 +44,15 @@ body{
 }
 
 .logo {
-    left: 7vh;
+    left: 1vh;
     position: relative;
 }
 
 .menu{
     display: flex;
     width:50%;
+    position: relative;
+    left: 5vh;
 }
 
 .menu :hover{
@@ -61,10 +63,30 @@ body{
     transition-duration: 0.5s;
 }
 
-@media screen and (min-width: 1600px) and (max-width: 1919px){
-    .logo img{
-        width: 180px;
-        height: 109px;
-    }
-
+.profileUser :hover{
+    cursor: grab;
+    -moz-transform: scale(0.5);
+	-webkit-transform: scale(0.5);
+	transform: scale(1.08);
+    transition-duration: 0.5s;
 }
+
+.user img{
+    width: 60px;
+    height: 60px;
+    display: flex;
+    border-radius: 50%;
+    position: relative;
+    right: 5vh;
+    border: 0.2vh solid black;
+}
+
+.menuUser{
+    display: none;
+}
+
+.profileUser:focus ~ .menuUser{
+    display: block;
+    position: absolute;
+}
+
