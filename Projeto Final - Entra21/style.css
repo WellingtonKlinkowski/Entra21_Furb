@@ -48,10 +48,6 @@ body{
     position: relative;
 }
 
-.slide{
-    inset: 0;
-}
-
 .slide-image{
     object-fit: cover;
     width: 100%;
@@ -62,9 +58,7 @@ body{
 
 .menu{
     display: flex;
-    width:50%;
     position: relative;
-    left: 5vh;
 }
 
 .menu :hover{
@@ -164,13 +158,12 @@ body{
     border: 0.2vh solid black;
     border-radius: 50%;
     position: relative;
-    right: 12vh;
     background-color: #dddddd;
 }
 
 .navProfile{
     position: absolute ;
-    right: 2vh;
+    right: 5vh;
     top: 15vh;
     background-color: #dddddd;
     margin: 0vh;
@@ -191,8 +184,20 @@ body{
     position: absolute;
 }
 
+@media screen and (min-width: 1280px) and (max-width: 1599px){
+
+    .navProfile{
+        top: 18vh;
+        right: 2vh;
+    }
+
+}
    
 @media screen and (min-width: 768px) and (max-width: 1279px){
+
+    .header{
+        justify-content: space-between;
+    }
     
     .menu{
         display: none;
@@ -225,7 +230,7 @@ body{
 
     .logo img{
         width: 150px;
-        height: 91px;
+        height: 61px;
     }
 
     .mapa h1{
@@ -267,6 +272,14 @@ body{
         font-size: 14px;
     }
 
+}
+
+@media screen and (min-width: 279px) and (max-width: 767px){
+
+    .logo img{
+        width: 100px;
+        height: 61px;
+    }
 }
 
 
