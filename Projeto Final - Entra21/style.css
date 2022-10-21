@@ -6,16 +6,19 @@
 
 
 body{
-    background-color: #dddddd;
+    /*#5edd7d verde */
+    /*#aa40c2 roxo */
+    background-color: #aa40c2;
     font-family: sans-serif;
     width: 100%;
     height: max-content;
     position: relative;
+
 }
 
 .header{
     width: 100%;
-    background-color: #dddddd;
+    background-color: #5edd7d;
     display: flex;
     justify-content: space-around;
     color: black;
@@ -50,10 +53,11 @@ body{
 
 .slide-image{
     object-fit: cover;
-    width: 100%;
+    width:97%;
     height: 80vh;
     display: grid;
     align-items: center;
+    margin: 3vh;
 }
 
 .menu{
@@ -148,29 +152,29 @@ body{
     padding-top: 5vh;
     padding-bottom: 5vh;
     font-size: 18px ;
-    color: #dddddd;
+    color: #5edd7d;
     text-align: center;
 }
 
 .menuProfile img{
     width: 10vh;
     height: 10vh;
-    border: 0.2vh solid black;
+    border: 0.4vh solid white;
     border-radius: 50%;
     position: relative;
-    background-color: #dddddd;
+    background-color: #5edd7d;
 }
 
 .navProfile{
     position: absolute ;
     right: 5vh;
     top: 15vh;
-    background-color: #dddddd;
+    background-color: #5edd7d;
     margin: 0vh;
     padding: 1vh;
     padding-bottom: 2vh;
     display: none;
-    border: 0.3vh solid black;
+    border: 0.3vh solid white;
     border-radius: 2vh;
 }
 
@@ -194,6 +198,12 @@ body{
 }
    
 @media screen and (min-width: 768px) and (max-width: 1279px){
+
+
+    .slide-image{
+        width: 100%;
+        margin: 0px;
+    }
 
     .header{
         justify-content: space-between;
@@ -222,6 +232,11 @@ body{
     .imgProfile img{
         margin: 1vh;
         right: 2vh;
+    }
+
+    .slide-image{
+        width: 100%;
+        margin: 0px;
     }
 
     .logo{
@@ -279,6 +294,11 @@ body{
     .logo img{
         width: 100px;
         height: 61px;
+    }
+
+    .slide-image{
+        width: 100%;
+        margin: 0px;
     }
 }
 

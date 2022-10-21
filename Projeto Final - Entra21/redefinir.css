@@ -6,8 +6,10 @@
 
 
 body{
+    /*#5edd7d verde */
+    /*#aa40c2 roxo */
     --cor-site: #ffffff;
-    background-color: fff;
+    background-color: #aa40c2;
     background-repeat: no-repeat;
     background-attachment: fixed;
     font-family: sans-serif;
@@ -17,7 +19,7 @@ body{
 
 .header{
     width: 100%;
-    background-color: #dddddd;
+    background-color: #5edd7d;
     display: flex;
     justify-content: center;
     position: relative;
@@ -31,7 +33,7 @@ body{
 .container{
     width: 30%;
     height: 40vh;
-    background-color : #dddddd;
+    background-color : #5edd7d;
     display: grid;
     grid-template-columns: 1;
     grid-template-rows: 4;
@@ -42,8 +44,8 @@ body{
     border-radius: 1vh;
     text-align: center;
     color: #000000;
-    box-shadow: 8px 8px 2px #515151;
-    border: 0.1vh solid rgb(0, 0, 0);
+    box-shadow: 8px 8px 2px #561066;
+    border: 0.1vh solid #aa40c2;
     
 }
 
@@ -80,7 +82,7 @@ body{
     background-color: #fff; 
     font-size: 20px;
     border-radius: 1.5vh;
-    border: 0.2vh solid rgb(0, 0, 0);
+    border: 0.2vh solid #fff;
 }
 
 .input:hover{
@@ -88,7 +90,7 @@ body{
 	-webkit-transform: scale(0.3);
 	transform: scale(1.08);
     transition-duration: 0.8s;
-    border: 0.2vh solid black;
+    border: 0.2vh solid #fff;
 }
 
 .input::placeholder{
@@ -113,11 +115,11 @@ body{
     position: relative;
     cursor: pointer;
     border-radius: 1vh;
-    border: 0.2vh solid #000;
+    border: 0.2vh solid #aa40c2;
     font-size: 16px;
     font-weight: 700;
     color: var(--cor-site);
-    background-color: black;
+    background-color: #aa40c2;
 }
 
 .btnEnviar:hover{
